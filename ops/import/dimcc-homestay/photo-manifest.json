@@ -1,0 +1,360 @@
+{
+ "homestay-anh-tuc": [
+  {
+   "n": 1,
+   "mediaId": "137",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC/ẢNH TỔNG QUAN + PHÒNG/IMG_5493.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "138",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC/ẢNH TỔNG QUAN + PHÒNG/IMG_5501.JPG"
+  }
+ ],
+ "new-highland-hotel": [
+  {
+   "n": 1,
+   "mediaId": "139",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh Phòng/1789997256434_4708393126238020809_g1614094742866789112_632a53f71cb42c3192da3bdfc25dd447.jpg"
+  },
+  {
+   "n": 2,
+   "mediaId": "140",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh Phòng/1789997256477_4708393126238020809_g1614094742866789112_6510a7cffdf9936d789e0491aedd2800.jpg"
+  },
+  {
+   "n": 3,
+   "mediaId": "141",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh khuôn viên/1789997256305_4708393126238020809_g1614094742866789112_317b75293e3561c05313189dfc2c3b3c.jpg"
+  },
+  {
+   "n": 4,
+   "mediaId": "142",
+   "role": "GALLERY",
+   "sort": 3,
+   "file": "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh tổng quan bên ngoài/1789997256351_4708393126238020809_g1614094742866789112_91dcb360b8f5bac852bcd294695b04e6.jpg"
+  }
+ ],
+ "homestay-mua-vang": [
+  {
+   "n": 1,
+   "mediaId": "143",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG/ẢNH PHÒNG/Ảnh phòng/IMG_5539.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "144",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG/ẢNH PHÒNG/Ảnh tổng quan/IMG_5540.JPG"
+  }
+ ],
+ "trai-ban-homestay": [
+  {
+   "n": 1,
+   "mediaId": "145",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/3P HOMESTAY/IMG_5596.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "146",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/3P HOMESTAY/IMG_5598.JPG"
+  },
+  {
+   "n": 3,
+   "mediaId": "147",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5590.JPG"
+  },
+  {
+   "n": 4,
+   "mediaId": "148",
+   "role": "GALLERY",
+   "sort": 3,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5591.JPG"
+  },
+  {
+   "n": 5,
+   "mediaId": "149",
+   "role": "GALLERY",
+   "sort": 4,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5594.JPG"
+  },
+  {
+   "n": 6,
+   "mediaId": "150",
+   "role": "GALLERY",
+   "sort": 5,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5595.JPG"
+  },
+  {
+   "n": 7,
+   "mediaId": "151",
+   "role": "GALLERY",
+   "sort": 6,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Khuôn viên/1790145681529_1502186757383306822_g901265921353449247_dd239c2745a102077060e5aa0c5cbb37.jpg"
+  },
+  {
+   "n": 8,
+   "mediaId": "152",
+   "role": "GALLERY",
+   "sort": 7,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Ảnh thẻ/1793696342252_1502186757383306822_1502186757383306822_89b8689e4f8fd7c192ebc1d8cd696b53.jpg"
+  }
+ ],
+ "hoa-son-tra-hotel": [
+  {
+   "n": 1,
+   "mediaId": "153",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/Hoa sơn tra/Ảnh khuôn viên/1791466070276_3752177215775102092_g3654053810288981291_0cd315041ee1f43002e80f2dcb7e19bf.jpg"
+  },
+  {
+   "n": 2,
+   "mediaId": "154",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/Hoa sơn tra/Ảnh phòng/1790143061978_3752177215775102092_g3654053810288981291_e71e5160f90407af4c25a937ad8b5d3c.jpg"
+  }
+ ],
+ "baan-mali-homestay": [
+  {
+   "n": 1,
+   "mediaId": "155",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh khuôn viên/1790000212702_1634471598576421424_g7115720524183294046_27667159dd3fd70ca2d55c7a0bf9b992.jpg"
+  },
+  {
+   "n": 2,
+   "mediaId": "156",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh khuôn viên/1790000212734_1634471598576421424_g7115720524183294046_1e545511ea484bc62277cbb4bd64a3ec.jpg"
+  },
+  {
+   "n": 3,
+   "mediaId": "157",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh tổng quan/IMG_5519.JPG"
+  }
+ ],
+ "homestay-hoa-thao": [
+  {
+   "n": 1,
+   "mediaId": "158",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5564.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "159",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5569.JPG"
+  },
+  {
+   "n": 3,
+   "mediaId": "160",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5572.JPG"
+  },
+  {
+   "n": 4,
+   "mediaId": "161",
+   "role": "GALLERY",
+   "sort": 3,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5579.JPG"
+  },
+  {
+   "n": 5,
+   "mediaId": "162",
+   "role": "GALLERY",
+   "sort": 4,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5580.JPG"
+  },
+  {
+   "n": 6,
+   "mediaId": "163",
+   "role": "GALLERY",
+   "sort": 5,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5581.JPG"
+  }
+ ],
+ "co-gai-thai-homestay": [
+  {
+   "n": 1,
+   "mediaId": "169",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DJI_20261015211648_0634_D.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "170",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DJI_20261015211652_0635_D.JPG"
+  },
+  {
+   "n": 3,
+   "mediaId": "171",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DSC03496.JPG"
+  },
+  {
+   "n": 4,
+   "mediaId": "172",
+   "role": "GALLERY",
+   "sort": 3,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DSC03503.JPG"
+  },
+  {
+   "n": 5,
+   "mediaId": "173",
+   "role": "GALLERY",
+   "sort": 4,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5736.JPG"
+  },
+  {
+   "n": 6,
+   "mediaId": "174",
+   "role": "GALLERY",
+   "sort": 5,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5748.JPG"
+  },
+  {
+   "n": 7,
+   "mediaId": "175",
+   "role": "GALLERY",
+   "sort": 6,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5761.JPG"
+  },
+  {
+   "n": 8,
+   "mediaId": "176",
+   "role": "GALLERY",
+   "sort": 7,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh Thẻ/Bản sao của IMG_5745.JPG"
+  },
+  {
+   "n": 9,
+   "mediaId": "177",
+   "role": "GALLERY",
+   "sort": 8,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5744.JPG"
+  },
+  {
+   "n": 10,
+   "mediaId": "178",
+   "role": "GALLERY",
+   "sort": 9,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5750.JPG"
+  },
+  {
+   "n": 11,
+   "mediaId": "179",
+   "role": "GALLERY",
+   "sort": 10,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5759.JPG"
+  },
+  {
+   "n": 12,
+   "mediaId": "180",
+   "role": "GALLERY",
+   "sort": 11,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5760.JPG"
+  }
+ ],
+ "bungalow-xuan-giang": [
+  {
+   "n": 1,
+   "mediaId": "184",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5711.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "185",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5714.JPG"
+  },
+  {
+   "n": 3,
+   "mediaId": "186",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5727.JPG"
+  },
+  {
+   "n": 4,
+   "mediaId": "187",
+   "role": "GALLERY",
+   "sort": 3,
+   "file": "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5728.JPG"
+  }
+ ],
+ "doi-doi-gio": [
+  {
+   "n": 1,
+   "mediaId": "189",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay/Ảnh phòng/Tổng quan/IMG_6258.JPG"
+  },
+  {
+   "n": 2,
+   "mediaId": "190",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay/Ảnh phòng/Ảnh Phòng/IMG_6259.JPG"
+  }
+ ],
+ "mai-linh-hotel": [
+  {
+   "n": 1,
+   "mediaId": "191",
+   "role": "COVER",
+   "sort": 0,
+   "file": "ẢNH HOMESTAY MCC/Mai Linh Hotel/Khuông viên/1790518684771_1561841435112033074_g8927124569245346429_ba3e3c9bdc7318411ee3156b919064f1.jpg"
+  },
+  {
+   "n": 2,
+   "mediaId": "192",
+   "role": "GALLERY",
+   "sort": 1,
+   "file": "ẢNH HOMESTAY MCC/Mai Linh Hotel/Ảnh phòng/1790518688043_1561841435112033074_g8927124569245346429_f9bb6e98ddc08df37e697465cf151b08.jpg"
+  },
+  {
+   "n": 3,
+   "mediaId": "193",
+   "role": "GALLERY",
+   "sort": 2,
+   "file": "ẢNH HOMESTAY MCC/Mai Linh Hotel/Ảnh phòng/1790518754836_5111332639817390961_g8927124569245346429_b3bef6bc3012c8d9463be171350fa093.jpg"
+  }
+ ]
+}

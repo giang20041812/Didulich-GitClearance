@@ -1,0 +1,612 @@
+{
+ "meta": {
+  "source": "DATA ĐÃ XÁC THỰC.xlsx › Homestay",
+  "builtAt": "2026-11-04"
+ },
+ "places": [
+  {
+   "slug": "homestay-anh-tuc",
+   "row": 2,
+   "name": "Homestay Anh Túc",
+   "address": "Tổ 5, TT Mù Cang Chải, Huyện Mù Cang Chải, Yên Bái (Cách chợ trung tâm Mù Cang Chải 500 mét)",
+   "description": "Mộc mạc, gần gũi thiên nhiên: Homestay mang đậm phong cách nhà sàn vùng cao Tây Bắc với vật liệu chủ đạo là gỗ, tre và mái lá. - Sự kết hợp truyền thống & hiện đại: Tuy giữ nét thô mộc truyền thống ở vỏ bọc bên ngoài để hòa hợp với cảnh quan, bên trong phòng ngủ vẫn được cải tiến với hệ thống cửa kính lớn kịch trần để tối ưu ánh sáng và trải nghiệm ngắm cảnh của du khách.\nLoại phòng: 3 phòng đơn; 4 phòng đôi.\nSức chứa: 25-40 khách cùng 1 thời điểm",
+   "priceRefMin": 600000,
+   "priceRefMax": 1200000,
+   "rating": 4.7,
+   "view": "View với tầm nhìn rộng mở nhìn ra cánh ruộng và đồi, thấy những nếp nhà của đồng bào người Mông thấp thoáng xa xa",
+   "suitability": "Phù hợp với nhóm người thích yên tĩnh, yêu thiên nhiên, thích khám phá, trải nghiệm văn hóa bản địa một cách chân thực nhất, tính cách cởi mở và dễ thích nghi.",
+   "otherAmenities": "- Phục vụ đốt lửa trại và văn nghệ dân tộc",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0963000708"
+    },
+    {
+     "channel": "FACEBOOK",
+     "value": "https://www.facebook.com/homestayanhtucMCC/?locale=vi_VN"
+    }
+   ],
+   "pros": [
+    "Địa điểm tại trung tâm thị trấn Mù Cang Chải thuận tiện đi lại các điểm tham quan.",
+    "Sạch sẽ, home có vườn đẹp, có em chó trông nhà mến khách, anh chị chủ home thân thiện, nhiệt tình, không gian yên tĩnh, thoải mái"
+   ],
+   "cons": [
+    "Chưa có nhiều dịch vụ đi kèm (theo comment khách du lịch)"
+   ],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 600000,
+     "weekendPrice": 1000000,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 4,
+     "occupancy": 2,
+     "basePrice": 800000,
+     "weekendPrice": 1200000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "new-highland-hotel",
+   "row": 3,
+   "name": "New Highland Hotel",
+   "address": "Tổ 2 thị trấn Mù Cang Chải, Yên Bái (Cách đồi Móng Ngựa 2km)",
+   "description": "Khách sạn boutique hiện đại, thanh lịch với thiết kế tối giản, nội thất gỗ ấm cúng và sở hữu không gian mở đón trọn tầm nhìn ra thung lũng ruộng bậc thang kỳ vĩ.\nLoại phòng: 9 phòng đơn; 12 phòng đôi; 1 phòng 4 giường.\nSức chứa: 45-55 khách cùng 1 thời điểm",
+   "priceRefMin": 830000,
+   "priceRefMax": 1700000,
+   "rating": 5.0,
+   "view": "View phố núi kết hợp ruộng bậc thang tầm xa, ở trung tâm thị trấn.",
+   "suitability": "Phù hợp với nhóm người thích hòa mình vào thiên nhiên vùng cao vào ban ngày, nhưng đêm phải được ngủ trong một căn phòng sạch sẽ, ấm cúng tiện nghi thay vì ở nhà sàn tập thể.",
+   "otherAmenities": "- Hệ thống phòng khép kín trang bị đầy đủ điều hòa 2 chiều, nước nóng ổn định, wifi tốc độ cao, tivi và máy sấy tóc. \n- Sân thượng view thung lũng thoáng đãng, bãi đỗ xe miễn phí, dịch vụ cho thuê xe máy, đặt vé xe khách và tư vấn lịch trình trekking chi tiết từ chủ.",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0966242337"
+    },
+    {
+     "channel": "FACEBOOK",
+     "value": "https://www.facebook.com/p/New-Highland-Hotel-100083042035145/"
+    }
+   ],
+   "pros": [
+    "Phòng sạch sẽ, thoáng mát, được chuẩn bị chu đáo và đầy đủ tiện nghi. Cơ sở vật chất mới và tốt. Nhân viên phục vụ nhiệt tình, lịch sự và hỗ trợ nhanh chóng khi cần ( support khách hàng, tư vấn lịch trình địa điểm tham quan, tư vấn các dịch vụ địa phương: quán ăn, coffe,…), chỗ đỗ xe thoải mái.",
+    "Nằm ngay trung tâm thị trấn để thuận tiện đi lại và ăn uống,"
+   ],
+   "cons": [
+    "Không có view ruộng vô cực do ở trung tâm thị trấn.",
+    "Khu vực nhộn nhịp, xe cộ qua lại nhiều nên các phòng ở tầng thấp phía mặt tiền có thể bị ảnh hưởng bởi tiếng ồn."
+   ],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 9,
+     "occupancy": 2,
+     "basePrice": 830000,
+     "weekendPrice": 880000,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 12,
+     "occupancy": 2,
+     "basePrice": 830000,
+     "weekendPrice": 880000,
+     "note": null
+    },
+    {
+     "name": "Phòng 4 giường",
+     "count": 1,
+     "occupancy": 4,
+     "basePrice": 1400000,
+     "weekendPrice": 1700000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "homestay-mua-vang",
+   "row": 4,
+   "name": "Homestay Mùa Vàng",
+   "address": "Thôn Hoàng Liên, Mù Cang Chải",
+   "description": "Sự kết hợp hài hòa giữa nét mộc mạc của núi rừng Tây Bắc và hơi hướng hiện đại. Homestay được thiết kế chủ đạo bằng gỗ và tre, tạo cảm giác ấm cúng, gần gũi với thiên nhiên nhưng không kém phần tinh tế, sang trọng.\nLoại phòng: 8 phòng đơn (1 giường đôi); 7 phòng đôi (2 giường).\nSức chứa: 2 - 4 người lớn",
+   "priceRefMin": 550000,
+   "priceRefMax": 1000000,
+   "rating": null,
+   "view": "Tầm nhìn triệu đô: Tất cả các phòng đều sở hữu ban công riêng nhìn thẳng ra cánh đồng lúa mịt mùng và đồi núi mây bay cuồn cuộn.Bồn tắm ngắm cảnh: Điểm cộng đắt giá nhất tại đây là bồn tắm đặt cạnh hệ cửa kính lớn. Bạn có thể vừa ngâm mình thư giãn, vừa phóng tầm mắt bắt trọn khung cảnh ruộng bậc thang Mù Cang Chải thơ mộng.",
+   "suitability": "Cặp đôi hoặc Vợ chồng son: Không gian lãng mạn lãng đãng mây trời và bồn tắm kính cực kỳ lý tưởng cho các chuyến hâm nóng tình cảm.Người yêu thích sự yên tĩnh & Nhiếp ảnh: Phù hợp cho những ai muốn \"trốn\" khói bụi thành phố, ngồi ban công thưởng trà, săn ảnh lúa vàng hay hoàng hôn mà không cần đi đâu xa.Nhóm bạn nhỏ hoặc Gia đình: Mong muốn một nơi lưu trú trung tâm, sạch sẽ, tiện nghi và có dịch vụ chu đáo.",
+   "otherAmenities": "Tiện ích phòng: Nhà vệ sinh khép kín sạch sẽ, giường đệm êm ái, bồn tắm bidet, máy sấy tóc, đồ vệ sinh cá nhân miễn phí và khu vực ghế ngồi thư giãn.Khuôn viên ngoài trời: Có khu vườn nhỏ thoáng đãng, nhà hàng và quầy bar phục vụ ăn uống tại chỗ.Dịch vụ hỗ trợ: Wi-Fi miễn phí toàn khuôn viên, lễ tân & dịch vụ phòng 24/7. Chủ nhà nhiệt tình hỗ trợ gọi xe máy, xe ôm trung chuyển đến tận các điểm check-in.",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0915505599"
+    }
+   ],
+   "pros": [
+    "Vị trí trung tâm thị trấn, cực kỳ dễ đi lại nhưng vẫn giữ được không gian yên tĩnh, không xô bồ.View phòng ngắm trọn ruộng lúa mộc mạc và mây núi siêu đẹp.Phòng ốc mới, thiết kế gỗ tre tinh tế, sạch sẽ, giường ngủ rất êm.Chủ nhà và nhân viên vô cùng thân thiện, lịch sự và hỗ trợ khách hết mình."
+   ],
+   "cons": [
+    "Vì là homestay mới vận hành nên số lượng phòng chưa quá nhiều, dễ cháy phòng vào mùa cao điểm lúa chín.Giá thành thuộc phân khúc trung – cao so với mặt bằng chung các nhà sàn tập thể tại Mù Cang Chải (tuy nhiên hoàn toàn xứng đáng với chất lượng tiện nghi biệt lập)."
+   ],
+   "rooms": [
+    {
+     "name": "Phòng đơn (1 giường đôi)",
+     "count": 8,
+     "occupancy": 2,
+     "basePrice": 550000,
+     "weekendPrice": 650000,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi (2 giường)",
+     "count": 7,
+     "occupancy": 4,
+     "basePrice": 800000,
+     "weekendPrice": 1000000,
+     "note": "Giá thứ 7 / cuối tuần: 1.000.000đ."
+    }
+   ]
+  },
+  {
+   "slug": "trai-ban-homestay",
+   "row": 5,
+   "name": "Trai Bản Homestay",
+   "address": null,
+   "description": "Thiết kế dạng các căn bungalow riêng biệt sử dụng chất liệu mộc mạc, gần gũi với thiên nhiên, kết hợp hài hòa giữa nét hoang sơ vùng cao và sự tiện nghi hiện đại.\nLoại phòng: 3 bungalow 1 giường; 2 bungalow 2 giường; 2 bungalow 3 giường; 3 phòng homestay.\nSức chứa: Các căn bungalow tiêu chuẩn phục vụ từ 2 – 4 người/phòng. Toàn khu có thể đón các đoàn khách trung bình.",
+   "priceRefMin": 600000,
+   "priceRefMax": 2000000,
+   "rating": null,
+   "view": "Các phòng nghỉ có view đối diện trực diện ra ruộng bậc thang. Không gian xung quanh rất yên tĩnh, trong lành nhưng lại vô cùng thuận tiện giao thông vì sát ngay trung tâm thị trấn Mù Cang Chải.",
+   "suitability": "Cặp đôi hoặc Gia đình nhỏ: Muốn tìm kiếm không gian nghỉ dưỡng bungalow riêng tư, lãng mạn và có view ngắm cảnh đẹp ngay khi mở cửa sổ.Nhóm bạn trẻ, khách phượt: Yêu thích chụp ảnh check-in ruộng bậc thang và cần một địa điểm di chuyển thuận tiện tới các điểm tham quan xung quanh.",
+   "otherAmenities": "Trang bị đầy đủ các vật dụng cá nhân cơ bản (khăn tắm, máy sấy, đồ vệ sinh cá nhân).Wifi miễn phí, chỗ đỗ xe thuận tiện ngay mặt đường lớn.Hỗ trợ các dịch vụ ăn uống đặc sản địa phương, cho thuê xe máy, và tư vấn lịch trình trekking, săn lúa chín.",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0979929101"
+    },
+    {
+     "channel": "FACEBOOK",
+     "value": "https://www.facebook.com/p/Homestay-Bungalow-Trai-B%E1%BA%A3n-61551259703214/"
+    }
+   ],
+   "pros": [
+    "Vị trí đắc địa, dễ tìm ngay mặt đường QL32, rất gần trung tâm thị trấn nên dễ dàng đi ăn uống, mua sắm.View ruộng bậc thang siêu đẹp, đặc biệt vào mùa lúa chín (khoảng tháng 9 - tháng 10).Chủ nhà (chị chủ) cực kỳ thân thiện, dễ thương, hiếu khách và hướng dẫn nhiệt tình.Nhận được đánh giá tuyệt đối (5/5 sao) từ những khách hàng đã trải nghiệm."
+   ],
+   "cons": [
+    "Do nằm sát mặt đường lớn QL32, vào những ngày cao điểm mùa du lịch có thể sẽ có chút tiếng ồn từ xe cộ qua lại."
+   ],
+   "rooms": [
+    {
+     "name": "Bungalow 1 giường",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 800000,
+     "weekendPrice": 1100000,
+     "note": null
+    },
+    {
+     "name": "Bungalow 2 giường",
+     "count": 2,
+     "occupancy": 4,
+     "basePrice": 1100000,
+     "weekendPrice": 1600000,
+     "note": null
+    },
+    {
+     "name": "Bungalow 3 giường",
+     "count": 2,
+     "occupancy": 6,
+     "basePrice": 1600000,
+     "weekendPrice": 2000000,
+     "note": null
+    },
+    {
+     "name": "Phòng homestay",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 600000,
+     "weekendPrice": 700000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "hoa-son-tra-hotel",
+   "row": 6,
+   "name": "Hoa Sơn Trà Hotel",
+   "address": "Tổ 2, thị trấn Mù Cang Chải, huyện Mù Cang Chải, Yên Bá",
+   "description": "Loại phòng: 6 phòng 1 giường to; 3 phòng 2 giường nhỏ; 3 phòng đôi 2 giường lớn.\nSức chứa: Phòng ở 2 người có 2 loại: 1 giường to hoặc 2 giường nhỏ: 6 phòng 1 giường to, 3 phòng 2 giường nhỏ, 3 phòng 2 giường lớn",
+   "priceRefMin": 500000,
+   "priceRefMax": 900000,
+   "rating": null,
+   "view": null,
+   "suitability": null,
+   "otherAmenities": "Có khu vườn, sân hiên, phòng chờ chung và bể sục thư giãn",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0974664911"
+    },
+    {
+     "channel": "PHONE",
+     "value": "0328608977"
+    },
+    {
+     "channel": "FACEBOOK",
+     "value": "https://www.facebook.com/p/Nh%C3%A0-Ngh%E1%BB%89-HOA-S%C6%A0N-TRA-100083395147812/"
+    }
+   ],
+   "pros": [
+    "Nằm ở Mù Cang Chải, Hoa Sơn Tra Hotel có khu vườn, phòng chờ chung, sân hiên, cùng Wi-Fi miễn phí ở toàn bộ chỗ nghỉ. Bể sục và dịch vụ cho thuê ô tô có sẵn cho khách sử dụng. Chỗ nghỉ có chỗ đậu xe riêng miễn phí và có cả dịch vụ đưa đón sân bay mất phí. Thành thạo tiếng Anh và tiếng Việt, đội ngũ nhân viên tại lễ tân luôn sẵn lòng đưa ra thông tin hữu ích về khu vực xung quanh."
+   ],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng 1 giường to",
+     "count": 6,
+     "occupancy": 2,
+     "basePrice": 500000,
+     "weekendPrice": 700000,
+     "note": null
+    },
+    {
+     "name": "Phòng 2 giường nhỏ",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 500000,
+     "weekendPrice": 700000,
+     "note": "Excel ghi thêm \"đơn 2 giường + 750k / phòng\" (cột giá tham khảo ghi +50k) — cần xác nhận phụ thu."
+    },
+    {
+     "name": "Phòng đôi 2 giường lớn",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 600000,
+     "weekendPrice": 900000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "nha-nghi-duy-vu",
+   "row": 7,
+   "name": "Nhà nghỉ Duy Vũ",
+   "address": "Tổ 6, Thị trấn Mù Cang Chải, Mù Cang Chải, Yên Bái",
+   "description": "Loại phòng: 2 phòng đơn; 14 phòng đôi.",
+   "priceRefMin": 600000,
+   "priceRefMax": 1100000,
+   "rating": null,
+   "view": null,
+   "suitability": "Giá cả phải chăng: Phù hợp với nhiều đối tượng khách hàng.",
+   "otherAmenities": "`",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0943333333"
+    },
+    {
+     "channel": "PHONE",
+     "value": "0329025003"
+    },
+    {
+     "channel": "FACEBOOK",
+     "value": "https://www.facebook.com/profile.php?id=61586279012629"
+    }
+   ],
+   "pros": [
+    "Vị trí thuận tiện: Chỗ nghỉ nằm ngay trung tâm thị trấn, dễ dàng di chuyển đến các điểm du lịch và ngắm cảnh núi rừng."
+   ],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 2,
+     "occupancy": 2,
+     "basePrice": 600000,
+     "weekendPrice": 900000,
+     "note": "Giường 1m8."
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 14,
+     "occupancy": 2,
+     "basePrice": 700000,
+     "weekendPrice": 1100000,
+     "note": "Giường 1m6."
+    }
+   ]
+  },
+  {
+   "slug": "baan-mali-homestay",
+   "row": 8,
+   "name": "Baan Mali Homestay",
+   "address": "QL 32, tổ 2, Trung tâm Mù Cang Chair",
+   "description": "Homestay mộc mạc, gần gũi thiên nhiên, kết hợp không gian lưu trú tiện nghi với nét giản dị của vùng núi Mù Cang Chải.\nLoại phòng: 3 phòng đơn; 4 phòng đôi.",
+   "priceRefMin": 800000,
+   "priceRefMax": 1200000,
+   "rating": 5.0,
+   "view": "* Không gian ngoài trời/sân hiên. * Không gian mở. * Bối cảnh núi rừng Mù Cang Chải. * Có thể phù hợp chụp ảnh sinh hoạt, nghỉ ngơi và trải nghiệm không gian vùng cao.",
+   "suitability": "khách trẻ, cặp đôi và nhóm bạn đi du lịch tự túc, yêu thích trải nghiệm thiên nhiên/vùng cao và không gian homestay mộc mạc.",
+   "otherAmenities": "Bếp chung, được phép đưa thú cưng vào",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0983994669"
+    }
+   ],
+   "pros": [
+    "Không gian ngoài trời/sân hiên.",
+    "Không gian mở.",
+    "Bối cảnh núi rừng Mù Cang Chải.",
+    "Có thể phù hợp chụp ảnh sinh hoạt, nghỉ ngơi và trải nghiệm không gian vùng cao."
+   ],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 800000,
+     "weekendPrice": 900000,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 4,
+     "occupancy": 2,
+     "basePrice": 1100000,
+     "weekendPrice": 1200000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "homestay-hoa-thao",
+   "row": 9,
+   "name": "Homestay Hoà Thảo",
+   "address": "QL 32, Trung tâm Mù Cang Chải",
+   "description": "Homestay mộc mạc, gần gũi thiên nhiên, thiên về trải nghiệm địa phương và du lịch khám phá. Có phòng gia đình, sân hiên, vườn và khu vực sinh hoạt chung.\nLoại phòng: 4 phòng đơn; 4 phòng đôi; 1 phòng cheap.",
+   "priceRefMin": 650000,
+   "priceRefMax": 1200000,
+   "rating": 4.8,
+   "view": "View núi, ruộng lúa/cánh đồng từ cửa sổ phòng là điểm nổi bật. Một số khách đánh giá cao khung cảnh nhìn từ phòng và khu vực ăn sáng. Tuy nhiên, đây không phải kiểu view ruộng bậc thang trực diện.",
+   "suitability": "khách trẻ, phượt thủ và khách du lịch tự túc yêu thích trekking, motorbike và thiên nhiên vùng cao.",
+   "otherAmenities": null,
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0974503699"
+    }
+   ],
+   "pros": [
+    "View núi, đồng ruộng đẹp.",
+    "Chủ nhà được đánh giá rất thân thiện, nhiệt tình.",
+    "Phòng sạch, rộng; có phòng gia đình.",
+    "Có bữa sáng.",
+    "Có chỗ đỗ xe miễn phí.",
+    "Hỗ trợ các hoạt động bus – trekking – motorbike đúng như tên homestay.",
+    "Đánh giá rất tốt: 9,4/10 trên Booking, hơn 200 đánh giá; riêng nhân viên 9,8–9,9/10 tùy thời điểm dữ liệu."
+   ],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 4,
+     "occupancy": 2,
+     "basePrice": 900000,
+     "weekendPrice": 1000000,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 4,
+     "occupancy": 2,
+     "basePrice": 1000000,
+     "weekendPrice": 1200000,
+     "note": null
+    },
+    {
+     "name": "Phòng cheap",
+     "count": 1,
+     "occupancy": 2,
+     "basePrice": 650000,
+     "weekendPrice": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "co-gai-thai-homestay",
+   "row": 10,
+   "name": "Cô Gái Thái Homestay",
+   "address": null,
+   "description": "Loại phòng: 2 phòng đơn; 2 phòng đôi; 2 phòng 3 giường (kê đệm).",
+   "priceRefMin": 550000,
+   "priceRefMax": 900000,
+   "rating": null,
+   "view": null,
+   "suitability": null,
+   "otherAmenities": null,
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0392922050"
+    }
+   ],
+   "pros": [],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 2,
+     "occupancy": 2,
+     "basePrice": 550000,
+     "weekendPrice": null,
+     "note": null
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 2,
+     "occupancy": 2,
+     "basePrice": 750000,
+     "weekendPrice": null,
+     "note": null
+    },
+    {
+     "name": "Phòng 3 giường (kê đệm)",
+     "count": 2,
+     "occupancy": 3,
+     "basePrice": 900000,
+     "weekendPrice": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "bungalow-xuan-giang",
+   "row": 11,
+   "name": "Bulgalow Xuân giang",
+   "address": null,
+   "description": "Loại phòng: 6 bungalow đơn 1 giường; 4 bungalow đơn 2 giường; 1 bungalow 3 giường.",
+   "priceRefMin": 800000,
+   "priceRefMax": 1400000,
+   "rating": null,
+   "view": null,
+   "suitability": null,
+   "otherAmenities": null,
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0988869363"
+    }
+   ],
+   "pros": [],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Bungalow đơn 1 giường",
+     "count": 6,
+     "occupancy": 2,
+     "basePrice": 800000,
+     "weekendPrice": null,
+     "note": "Sức chứa 2 người."
+    },
+    {
+     "name": "Bungalow đơn 2 giường",
+     "count": 4,
+     "occupancy": 4,
+     "basePrice": 1000000,
+     "weekendPrice": null,
+     "note": "Sức chứa 4 người."
+    },
+    {
+     "name": "Bungalow 3 giường",
+     "count": 1,
+     "occupancy": 6,
+     "basePrice": 1400000,
+     "weekendPrice": null,
+     "note": "Sức chứa 6 người."
+    }
+   ]
+  },
+  {
+   "slug": "doi-doi-gio",
+   "row": 12,
+   "name": "Đồi đổi gió",
+   "address": null,
+   "description": "Nghỉ dưỡng giữa núi đồi, gần gũi thiên nhiên. Phù hợp định vị theo hướng chill, thư giãn, tránh xa sự ồn ào. Cần xem ảnh thực tế để xác định home mang phong cách mộc mạc bản địa, hiện đại hay bungalow.\nLoại phòng: 4 phòng đơn; 2 phòng đôi; 3 bungalow; 1 phòng triple (3 giường).\nSức chứa: Sức chứa : từ 20-30ng",
+   "priceRefMin": 600000,
+   "priceRefMax": 1600000,
+   "rating": null,
+   "view": "View nhìn ra núi, thung lũng hay ruộng bậc thang. Không gian ngoài trời, ban công hoặc khu vực ngắm cảnh. Góc chụp ảnh, săn mây và ngắm bình minh. Loại phòng, sức chứa và tiện nghi thực tế.",
+   "suitability": "Cặp đôi: nếu có phòng riêng, không gian riêng tư. Nhóm bạn trẻ: nếu có view đẹp, nhiều góc chụp ảnh. Khách thích nghỉ dưỡng: nếu không gian yên tĩnh, thoáng đãng. Khách gia đình: nếu có phòng phù hợp, nhà vệ sinh riêng và lối đi thuận tiện.",
+   "otherAmenities": "Tiện ích trong phòng: phòng tắm riêng hay chung, bình nóng lạnh, điều hòa, quạt, wifi, máy sấy tóc, đồ vệ sinh cá nhân. Tiện ích chung: khu ăn uống, sân ngắm cảnh, BBQ, chỗ đỗ xe, phục vụ ăn sáng.",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0387927468"
+    }
+   ],
+   "pros": [],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 4,
+     "occupancy": 2,
+     "basePrice": 600000,
+     "weekendPrice": 800000,
+     "note": "Cuối tuần áp dụng thứ 6, 7, chủ nhật."
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 2,
+     "occupancy": 2,
+     "basePrice": 900000,
+     "weekendPrice": 1100000,
+     "note": null
+    },
+    {
+     "name": "Bungalow",
+     "count": 3,
+     "occupancy": 2,
+     "basePrice": 1300000,
+     "weekendPrice": 1500000,
+     "note": null
+    },
+    {
+     "name": "Phòng triple (3 giường)",
+     "count": 1,
+     "occupancy": 3,
+     "basePrice": 1400000,
+     "weekendPrice": 1600000,
+     "note": null
+    }
+   ]
+  },
+  {
+   "slug": "mai-linh-hotel",
+   "row": 13,
+   "name": "Mai linh hotel  (= đồi đổi gió 1 chủ )",
+   "address": null,
+   "description": "Loại phòng: 7 phòng đơn; 13 phòng đôi.",
+   "priceRefMin": 500000,
+   "priceRefMax": 1200000,
+   "rating": null,
+   "view": "2. Điểm nổi bật Là lựa chọn lưu trú dạng khách sạn tại khu vực Mù Cang Chải. Phù hợp đưa vào danh sách tham khảo cho khách cần phòng nghỉ riêng tư, thay vì ở nhà sàn cộng đồng. Thông tin về quy mô, phong cách thiết kế và dịch vụ nổi bật cần khảo sát thực tế thêm.",
+   "suitability": "Cặp đôi: nếu có phòng đôi riêng tư. Gia đình: nếu có phòng gia đình hoặc phòng nhiều giường. Nhóm bạn: nếu có đủ phòng để bố trí cùng đoàn. Khách đi công tác hoặc du lịch tự túc: nếu ưu tiên nghỉ ngơi tại khách sạn.",
+   "otherAmenities": "1. Tiện ích\nCó phòng nghỉ phục vụ khách du lịch.\nThông tin trực tuyến hiện chưa đủ để xác nhận các tiện ích cụ thể như điều hòa, Wi-Fi, ăn sáng, bãi đỗ xe hoặc nhà hàng.\nNên liên hệ trực tiếp để kiểm tra loại phòng, số lượng giường và dịch vụ đi kèm trước khi tư vấn khách.",
+   "contacts": [
+    {
+     "channel": "PHONE",
+     "value": "0387927468"
+    }
+   ],
+   "pros": [],
+   "cons": [],
+   "rooms": [
+    {
+     "name": "Phòng đơn",
+     "count": 7,
+     "occupancy": 2,
+     "basePrice": 500000,
+     "weekendPrice": 700000,
+     "note": "Cuối tuần: thứ 7, chủ nhật."
+    },
+    {
+     "name": "Phòng đôi",
+     "count": 13,
+     "occupancy": 2,
+     "basePrice": 700000,
+     "weekendPrice": 1200000,
+     "note": "Có thêm hạng VIP 800.000đ (ngày thường) / 1.400.000đ (cuối tuần) nhưng Excel chưa ghi số phòng."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1138 @@
+[
+ {
+  "sheet": "Di chuyển",
+  "row": 2,
+  "name": "Hà Trang (Lai Châu)",
+  "outcome": "created",
+  "ref": "tr:ha-trang-lai-chau",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 3,
+  "name": "Sơn Phương",
+  "outcome": "created",
+  "ref": "tr:son-phuong",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 4,
+  "name": "Hưng Thành (Lai Châu)",
+  "outcome": "created",
+  "ref": "tr:hung-thanh-lai-chau",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 5,
+  "name": "Cường Lan",
+  "outcome": "merged",
+  "ref": "tr:cuong-lan",
+  "note": "cùng tên nhà xe, gộp thành một (nhiều số điện thoại)"
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 6,
+  "name": "Anh Khang Authentic",
+  "outcome": "created",
+  "ref": "tr:anh-khang-authentic",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 7,
+  "name": "Gia Khánh",
+  "outcome": "created",
+  "ref": "tr:gia-khanh",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 8,
+  "name": "Cường Lan",
+  "outcome": "merged",
+  "ref": "tr:cuong-lan",
+  "note": "cùng tên nhà xe, gộp thành một (nhiều số điện thoại)"
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 9,
+  "name": "Nam Thắng Limousine",
+  "outcome": "created",
+  "ref": "tr:nam-thang-limousine",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 10,
+  "name": "Golden Limousine",
+  "outcome": "created",
+  "ref": "tr:golden-limousine",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 11,
+  "name": "An Bình Limousine",
+  "outcome": "created",
+  "ref": "tr:an-binh-limousine",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 12,
+  "name": "Xe Ghép Yên Bái",
+  "outcome": "created",
+  "ref": "tr:xe-ghep-yen-bai",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 13,
+  "name": "Xe ghép Yên Bái – Chế Cu Nha",
+  "outcome": "created",
+  "ref": "tr:xe-ghep-yen-bai-che-cu-nha",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 14,
+  "name": "Xe ghép Yên Bái – Chế Tạo",
+  "outcome": "created",
+  "ref": "tr:xe-ghep-yen-bai-che-tao",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển",
+  "row": 15,
+  "name": "Xe ghép Yên Bái – Nậm Có",
+  "outcome": "created",
+  "ref": "tr:xe-ghep-yen-bai-nam-co",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 5,
+  "name": "Xe ôm lên Đồi Móng Ngựa",
+  "outcome": "created",
+  "ref": "tr:xe-om-len-doi-mong-ngua",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 6,
+  "name": "Xe ôm lên Đồi Mâm Xôi (La Pán Tẩn)",
+  "outcome": "created",
+  "ref": "tr:xe-om-len-doi-mam-xoi-la-pan-tan",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 7,
+  "name": "Xe ôm đi các điểm ruộng bậc thang qua homestay đặt hộ",
+  "outcome": "created",
+  "ref": "tr:xe-om-di-cac-diem-ruong-bac-thang-qua-homestay-dat-ho",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 8,
+  "name": "Thuê xe máy tự lái (Thị trấn / Ngã Ba Kim)",
+  "outcome": "created",
+  "ref": "tr:thue-xe-may-tu-lai-thi-tran-nga-ba-kim",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 9,
+  "name": "Xe khách giường nằm Hà Nội – Mù Cang Chải (tổng hợp các nhà xe)",
+  "outcome": "created",
+  "ref": "tr:xe-khach-giuong-nam-ha-noi-mu-cang-chai-tong-hop-cac-nha-xe",
+  "note": "dòng tổng hợp; SĐT Hà Trang đã gộp vào nhà xe Hà Trang"
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 10,
+  "name": "Xe ôm vào Rừng trúc Nà Háng Tủa",
+  "outcome": "created",
+  "ref": "tr:xe-om-vao-rung-truc-na-hang-tua",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 11,
+  "name": "Xe trung chuyển Ngã 3 Kim – Ngã 3 Ba Nhà",
+  "outcome": "created",
+  "ref": "tr:xe-trung-chuyen-nga-3-kim-nga-3-ba-nha",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 12,
+  "name": "Thuê xe ô tô bán tải / 2 cầu có tài xế",
+  "outcome": "created",
+  "ref": "tr:thue-xe-o-to-ban-tai-2-cau-co-tai-xe",
+  "note": null
+ },
+ {
+  "sheet": "Di chuyển reviewer",
+  "row": 13,
+  "name": "Xe ôm ghép đoàn phượt đường dài",
+  "outcome": "created",
+  "ref": "tr:xe-om-ghep-doan-phuot-duong-dai",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 5,
+  "name": "Bay dù lượn \"Bay trên mùa vàng\" (Đèo Khau Phạ)",
+  "outcome": "created",
+  "ref": "sv:bay-du-luon-bay-tren-mua-vang-deo-khau-pha",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 6,
+  "name": "Thuê thợ chụp ảnh & trang phục dân tộc",
+  "outcome": "created",
+  "ref": "sv:thue-tho-chup-anh-trang-phuc-dan-toc",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 7,
+  "name": "Quay / thuê flycam tại điểm ngắm lúa",
+  "outcome": "created",
+  "ref": "sv:quay-thue-flycam-tai-diem-ngam-lua",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 8,
+  "name": "Ngâm chân lá thuốc thảo mộc",
+  "outcome": "created",
+  "ref": "sv:ngam-chan-la-thuoc-thao-moc",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 9,
+  "name": "Gửi hành lý / xe máy tại chân dốc",
+  "outcome": "created",
+  "ref": "sv:gui-hanh-ly-xe-may-tai-chan-doc",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 10,
+  "name": "Cứu hộ xe máy khẩn cấp trên đèo",
+  "outcome": "created",
+  "ref": "sv:cuu-ho-xe-may-khan-cap-tren-deo",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 11,
+  "name": "Thuê porter / hướng dẫn viên trekking",
+  "outcome": "created",
+  "ref": "sv:thue-porter-huong-dan-vien-trekking",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 12,
+  "name": "Đặt tiệc / đốt lửa trại & múa xòe",
+  "outcome": "created",
+  "ref": "sv:dat-tiec-dot-lua-trai-mua-xoe",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 13,
+  "name": "Dịch vụ rửa xe máy sau phượt",
+  "outcome": "created",
+  "ref": "sv:dich-vu-rua-xe-may-sau-phuot",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 14,
+  "name": "Đặt trước vé Xe khách chiều về Hà Nội",
+  "outcome": "merged",
+  "ref": "tr:ha-trang-lai-chau",
+  "note": "là dịch vụ của nhà xe Hà Trang"
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 15,
+  "name": "Thuê ủng đi mưa / áo mưa tại chân dốc",
+  "outcome": "created",
+  "ref": "sv:thue-ung-di-mua-ao-mua-tai-chan-doc",
+  "note": null
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 16,
+  "name": "Trạm Tấu-Yên Bái (Tà Xùa)",
+  "outcome": "created",
+  "ref": "at:da-xua-tram-tau",
+  "note": "thực chất là điểm đến"
+ },
+ {
+  "sheet": "Dịch vụ reviewer",
+  "row": 17,
+  "name": "Lào Cai (Bể khoáng nóng Cường Hải)",
+  "outcome": "created",
+  "ref": "at:be-khoang-nong-cuong-hai",
+  "note": "thực chất là điểm đến"
+ },
+ {
+  "sheet": "Homestay",
+  "row": 2,
+  "name": "Hello Mu Cang Chai Homestay",
+  "outcome": "created",
+  "ref": "hs:hello-mu-cang-chai-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 3,
+  "name": "Mu Cang Chai Eco Lodge",
+  "outcome": "created",
+  "ref": "hs:mu-cang-chai-eco-lodge",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 4,
+  "name": "Dò Gừ Homestay",
+  "outcome": "created",
+  "ref": "hs:do-gu-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 5,
+  "name": "Mù Cang Homestay",
+  "outcome": "created",
+  "ref": "hs:mu-cang-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 6,
+  "name": "Ngọc Thúy Homestay",
+  "outcome": "created",
+  "ref": "hs:ngoc-thuy-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 7,
+  "name": "Mong Ngua Homestay",
+  "outcome": "created",
+  "ref": "hs:mong-ngua-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 8,
+  "name": "La Pan Tan Homestay",
+  "outcome": "created",
+  "ref": "hs:la-pan-tan-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 9,
+  "name": "Homestay Cường Tú",
+  "outcome": "created",
+  "ref": "hs:homestay-cuong-tu",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 10,
+  "name": "Nhà nghỉ cộng đồng Lương Văn Bản",
+  "outcome": "created",
+  "ref": "hs:nha-nghi-cong-dong-luong-van-ban",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 11,
+  "name": "Homestay Tùng Teng",
+  "outcome": "created",
+  "ref": "hs:homestay-tung-teng",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 12,
+  "name": "Homestay A De",
+  "outcome": "created",
+  "ref": "hs:homestay-a-de",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 13,
+  "name": "Lượng Hường Homestay",
+  "outcome": "created",
+  "ref": "hs:luong-huong-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 14,
+  "name": "Homestay Minh Ngọc",
+  "outcome": "created",
+  "ref": "hs:homestay-minh-ngoc",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 15,
+  "name": "Suối Kim 2 Homestay",
+  "outcome": "created",
+  "ref": "hs:suoi-kim-2-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 16,
+  "name": "Nhà nghỉ cộng đồng Nông Văn Êm",
+  "outcome": "created",
+  "ref": "hs:nha-nghi-cong-dong-nong-van-em",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 17,
+  "name": "Homestay Tư Nguyệt",
+  "outcome": "merged",
+  "ref": "hs:homestay-tu-nguyet",
+  "note": "gộp với dòng của sheet còn lại"
+ },
+ {
+  "sheet": "Homestay",
+  "row": 18,
+  "name": "Homestay Quyết Đoản",
+  "outcome": "created",
+  "ref": "hs:homestay-quyet-doan",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 19,
+  "name": "Hoai Phuong Homestay",
+  "outcome": "created",
+  "ref": "hs:hoai-phuong-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 20,
+  "name": "Home Stay Duy Cường",
+  "outcome": "created",
+  "ref": "hs:home-stay-duy-cuong",
+  "note": null
+ },
+ {
+  "sheet": "Homestay",
+  "row": 21,
+  "name": "Gà Tre Homestay",
+  "outcome": "created",
+  "ref": "hs:ga-tre-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 3,
+  "name": "Mù Cang Chải Village Home",
+  "outcome": "created",
+  "ref": "hs:mu-cang-chai-village-home",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 4,
+  "name": "Mù Cang Chải Big View Homestay",
+  "outcome": "created",
+  "ref": "hs:mu-cang-chai-big-view-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 5,
+  "name": "Chải Eco House",
+  "outcome": "created",
+  "ref": "hs:chai-eco-house",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 6,
+  "name": "A Su Homestay",
+  "outcome": "created",
+  "ref": "hs:a-su-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 7,
+  "name": "Wind's Homestay",
+  "outcome": "created",
+  "ref": "hs:winds-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 8,
+  "name": "Homestay Chù Chỏ",
+  "outcome": "created",
+  "ref": "hs:homestay-chu-cho",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 9,
+  "name": "Bamboo Homestay",
+  "outcome": "created",
+  "ref": "hs:bamboo-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 10,
+  "name": "Sùng A Hờ Homestay",
+  "outcome": "created",
+  "ref": "hs:sung-a-ho-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 11,
+  "name": "Suối Kim Homestay",
+  "outcome": "created",
+  "ref": "hs:suoi-kim-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 12,
+  "name": "Bluehome Homestay (Khau Phạ)",
+  "outcome": "created",
+  "ref": "hs:bluehome-homestay-khau-pha",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 13,
+  "name": "Pú Nhu Homestay",
+  "outcome": "created",
+  "ref": "hs:pu-nhu-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 14,
+  "name": "Dòng Suối Hmong Homestay & Bungalow",
+  "outcome": "created",
+  "ref": "hs:dong-suoi-hmong-homestay-bungalow",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 15,
+  "name": "Mù Cang Chải Dream House",
+  "outcome": "created",
+  "ref": "hs:mu-cang-chai-dream-house",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 16,
+  "name": "Súa Su Homestay",
+  "outcome": "created",
+  "ref": "hs:sua-su-homestay",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 17,
+  "name": "Homestay Tư Nguyệt",
+  "outcome": "merged",
+  "ref": "hs:homestay-tu-nguyet",
+  "note": "gộp với dòng của sheet còn lại"
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 18,
+  "name": "Indigenous Homestay – Trek & Local Life",
+  "outcome": "created",
+  "ref": "hs:indigenous-homestay-trek-local-life",
+  "note": null
+ },
+ {
+  "sheet": "Homestay reviewer",
+  "row": 19,
+  "name": "GARRYA Mù Cang Chải",
+  "outcome": "created",
+  "ref": "hs:garrya-mu-cang-chai",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 2,
+  "name": "Nhà hàng Quyền Hường",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-quyen-huong",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 3,
+  "name": "Quán Mạnh Thơm",
+  "outcome": "merged",
+  "ref": "rs:quan-manh-thom",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 4,
+  "name": "Nhà hàng Tuấn Thúy",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-tuan-thuy",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 5,
+  "name": "Nhà hàng Thắng Dung",
+  "outcome": "created",
+  "ref": "rs:nha-hang-thang-dung",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 6,
+  "name": "Nhà hàng Hằng Béo",
+  "outcome": "created",
+  "ref": "rs:nha-hang-hang-beo",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 7,
+  "name": "Nhà hàng A Tân Quán",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-a-tan-quan",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 8,
+  "name": "Nhà hàng Thùy Linh",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-thuy-linh",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 9,
+  "name": "Nhà hàng Vườn Đào",
+  "outcome": "created",
+  "ref": "rs:nha-hang-vuon-dao",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 10,
+  "name": "Nhà hàng Thành Oanh",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-thanh-oanh",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 11,
+  "name": "Nhà hàng Nguyệt Thắng",
+  "outcome": "created",
+  "ref": "rs:nha-hang-nguyet-thang",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 12,
+  "name": "Quán Thuật Hà",
+  "outcome": "created",
+  "ref": "rs:quan-thuat-ha",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 13,
+  "name": "Nhà hàng Tuấn Thúy",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-tuan-thuy",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng",
+  "row": 14,
+  "name": "Quán con khỉ",
+  "outcome": "created",
+  "ref": "rs:quan-con-khi",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 5,
+  "name": "Cơm Phở Lục Hường",
+  "outcome": "created",
+  "ref": "rs:com-pho-luc-huong",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 6,
+  "name": "Cafe Mâm Xôi",
+  "outcome": "created",
+  "ref": "rs:cafe-mam-xoi",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 7,
+  "name": "Nhà hàng A Tân Quán",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-a-tan-quan",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 8,
+  "name": "Vua Xứ Mù Cafe",
+  "outcome": "created",
+  "ref": "rs:vua-xu-mu-cafe",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 9,
+  "name": "Nhà hàng Thùy Linh",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-thuy-linh",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 10,
+  "name": "View Gió (Gió Quán)",
+  "outcome": "created",
+  "ref": "rs:view-gio-gio-quan",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 11,
+  "name": "Nhà hàng Hương Ly",
+  "outcome": "created",
+  "ref": "rs:nha-hang-huong-ly",
+  "note": null
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 12,
+  "name": "Nhà hàng Quyền Hường",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-quyen-huong",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 13,
+  "name": "Quán Mạnh Thơm",
+  "outcome": "merged",
+  "ref": "rs:quan-manh-thom",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Nhà hàng reviewer",
+  "row": 14,
+  "name": "Nhà hàng Thành Oanh",
+  "outcome": "merged",
+  "ref": "rs:nha-hang-thanh-oanh",
+  "note": "gộp với dòng của sheet còn lại / dòng trùng"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 2,
+  "name": "Gầu Tào",
+  "outcome": "created",
+  "ref": "fe:gau-tao",
+  "note": "bảng festival"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 3,
+  "name": "Mừng cơm mới",
+  "outcome": "created",
+  "ref": "fe:mung-com-moi",
+  "note": "bảng festival"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 4,
+  "name": "Festival Khèn Mông",
+  "outcome": "created",
+  "ref": "fe:festival-khen-mong",
+  "note": "bảng festival"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 5,
+  "name": "Hoa Tớ Dày",
+  "outcome": "created",
+  "ref": "fe:hoa-to-day",
+  "note": "bảng festival"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 6,
+  "name": "Mùa vàng/khám phá ruộng bậc thang",
+  "outcome": "created",
+  "ref": "fe:mua-vang-kham-pha-ruong-bac-thang",
+  "note": "bảng festival"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 10,
+  "name": "Khèn Mông",
+  "outcome": "created",
+  "ref": "cu:khen-mong",
+  "note": "trải nghiệm văn hóa (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 11,
+  "name": "Thổ cẩm/vẽ sáp ong",
+  "outcome": "created",
+  "ref": "cu:tho-cam-ve-sap-ong",
+  "note": "trải nghiệm văn hóa (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 12,
+  "name": "Ruộng bậc thang",
+  "outcome": "created",
+  "ref": "cu:ruong-bac-thang",
+  "note": "trải nghiệm văn hóa (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 13,
+  "name": "Ẩm thực vùng cao",
+  "outcome": "created",
+  "ref": "cu:am-thuc-vung-cao",
+  "note": "trải nghiệm văn hóa (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 14,
+  "name": "Bản làng & sinh hoạt cộng đồng",
+  "outcome": "created",
+  "ref": "cu:ban-lang-sinh-hoat-cong-dong",
+  "note": "trải nghiệm văn hóa (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 18,
+  "name": "Khách văn hóa/di sản",
+  "outcome": "unmapped",
+  "ref": null,
+  "note": "Phân khúc khách hàng (marketing) — không có bảng đích; giữ nguyên trong dataset.unmapped"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 19,
+  "name": "Khách thiên nhiên/trekking",
+  "outcome": "unmapped",
+  "ref": null,
+  "note": "Phân khúc khách hàng (marketing) — không có bảng đích; giữ nguyên trong dataset.unmapped"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 20,
+  "name": "Gia đình/giáo dục",
+  "outcome": "unmapped",
+  "ref": null,
+  "note": "Phân khúc khách hàng (marketing) — không có bảng đích; giữ nguyên trong dataset.unmapped"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 21,
+  "name": "Khách quốc tế",
+  "outcome": "unmapped",
+  "ref": null,
+  "note": "Phân khúc khách hàng (marketing) — không có bảng đích; giữ nguyên trong dataset.unmapped"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 22,
+  "name": "Khách nghỉ dưỡng/chậm",
+  "outcome": "unmapped",
+  "ref": null,
+  "note": "Phân khúc khách hàng (marketing) — không có bảng đích; giữ nguyên trong dataset.unmapped"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 26,
+  "name": "Một ngày cùng ruộng bậc thang",
+  "outcome": "created",
+  "ref": "cu:mot-ngay-cung-ruong-bac-thang",
+  "note": "sản phẩm trải nghiệm (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 27,
+  "name": "Khèn và sắc chàm",
+  "outcome": "created",
+  "ref": "cu:khen-va-sac-cham",
+  "note": "sản phẩm trải nghiệm (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 28,
+  "name": "Mùa lễ hội bản địa",
+  "outcome": "created",
+  "ref": "cu:mua-le-hoi-ban-dia",
+  "note": "sản phẩm trải nghiệm (place kind CULTURE)"
+ },
+ {
+  "sheet": "Văn hóa",
+  "row": 29,
+  "name": "Mù Cang Chải sống chậm",
+  "outcome": "created",
+  "ref": "cu:mu-cang-chai-song-cham",
+  "note": "sản phẩm trải nghiệm (place kind CULTURE)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 2,
+  "name": "Đồi Mâm Xôi",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 3,
+  "name": "Đèo Khau Phạ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 4,
+  "name": "Thung lũng Tú Lệ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 5,
+  "name": "Thác Pú Nhu",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 6,
+  "name": "Thác Mơ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 7,
+  "name": "Đồi Móng Ngựa",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 8,
+  "name": "Rừng Trúc",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 9,
+  "name": "Sống Lưng Khủng Long",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 10,
+  "name": "Đồi Kim Nọi - Võng lúa Háng đăng dê",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 11,
+  "name": "Thác Hầu đề",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 12,
+  "name": "Mâm Xôi Nhỏ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Điểm đến",
+  "row": 13,
+  "name": "Hoa đào rừng ( Hoa Tớ Dầy) La Pán Tẩn",
+  "outcome": "existing",
+  "ref": null,
+  "note": "điểm đến đã có sẵn trong hệ thống (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 2,
+  "name": "Xôi nếp Tú Lệ / xôi ngũ sắc",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 3,
+  "name": "Cá suối nướng",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 4,
+  "name": "Pa pỉnh tộp",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 5,
+  "name": "Thịt lợn bản kẹp cây rừng nướng",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 6,
+  "name": "Gà đen Mù Cang Chải",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 7,
+  "name": "Gà nướng lá mắc mật, nướng mắc khén",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 8,
+  "name": "Cá hồi, cá tầm Khau Phạ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 9,
+  "name": "Cua suối rang muối",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 10,
+  "name": "Châu chấu rang",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 11,
+  "name": "Nhộng ong rừng, sâu tre",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 12,
+  "name": "Măng đắng, rau rừng/cải mèo",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 13,
+  "name": "Bánh chưng đen",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 14,
+  "name": "Cốm Tú Lệ",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 15,
+  "name": "Táo mèo / sơn tra và rượu táo mèo",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ },
+ {
+  "sheet": "Đặc sản",
+  "row": 16,
+  "name": "Mật ong rừng; lạp xưởng; thịt hun khói/gác bếp; nếp Tú Lệ; măng khô",
+  "outcome": "existing",
+  "ref": null,
+  "note": "đặc sản đã có sẵn trong bảng dish (importer kiểm chứng với DB)"
+ }
+]

@@ -1,0 +1,535 @@
+{
+ "meta": {
+  "source": "Thư mục ảnh điểm đến",
+  "builtAt": "2026-11-04"
+ },
+ "places": [
+  {
+   "key": "at:hoa-dao-rung-la-pan-tan",
+   "kind": "ATTRACTION",
+   "name": "Hoa đào rừng La Pán Tẩn",
+   "slug": "hoa-dao-rung-la-pan-tan",
+   "regionCode": "MCC_LA_PAN_TAN",
+   "address": null,
+   "description": "Hoa đào rừng La Pán Tẩn — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Hoa Đào Rừng La Pán Tẩn\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Hoa Đào Rừng La Pán Tẩn"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:hoa-dao-rung-mong-ngua",
+   "kind": "ATTRACTION",
+   "name": "Hoa đào rừng Móng Ngựa",
+   "slug": "hoa-dao-rung-mong-ngua",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Hoa đào rừng Móng Ngựa — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Hoa đào rừng Móng Ngựa\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Hoa đào rừng Móng Ngựa"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:hu-chu-lin",
+   "kind": "ATTRACTION",
+   "name": "Hú Chù Lìn",
+   "slug": "hu-chu-lin",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Hú Chù Lìn — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Hú Chù Lìn\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Hú Chù Lìn"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:mam-xoi-lon",
+   "kind": "ATTRACTION",
+   "name": "Mâm Xôi Lớn",
+   "slug": "mam-xoi-lon",
+   "regionCode": "MCC_LA_PAN_TAN",
+   "address": null,
+   "description": "Mâm Xôi Lớn — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Mâm Xôi Lớn\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Mâm Xôi Lớn"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:nha-ngo",
+   "kind": "ATTRACTION",
+   "name": "Nhà Ngô",
+   "slug": "nha-ngo",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Nhà Ngô — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Nhà Ngô\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Nhà Ngô"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:rung-truc",
+   "kind": "ATTRACTION",
+   "name": "Rừng Trúc",
+   "slug": "rung-truc",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Rừng Trúc — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Rừng Trúc\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Rừng Trúc"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:song-lung-khung-long",
+   "kind": "ATTRACTION",
+   "name": "Sống Lưng Khủng Long",
+   "slug": "song-lung-khung-long",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Sống Lưng Khủng Long — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Sống Lưng Khủng Long\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Sống Lưng Khủng Long"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:thac-7-tang",
+   "kind": "ATTRACTION",
+   "name": "Thác 7 Tầng",
+   "slug": "thac-7-tang",
+   "regionCode": "MU_CANG_CHAI",
+   "address": null,
+   "description": "Thác 7 Tầng — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Thác 7 Tầng\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Thác 7 Tầng"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:vong-lua-lao-chai",
+   "kind": "ATTRACTION",
+   "name": "Võng Lúa Lao Chải",
+   "slug": "vong-lua-lao-chai",
+   "regionCode": "MCC_LAO_CHAI",
+   "address": null,
+   "description": "Võng Lúa Lao Chải — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Võng Lúa Lao Chải\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Võng Lúa Lao Chải"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "at:deo-khau-pha",
+   "kind": "ATTRACTION",
+   "name": "Đèo Khau Phạ",
+   "slug": "deo-khau-pha",
+   "regionCode": "MCC_CAO_PHA",
+   "address": null,
+   "description": "Đèo Khau Phạ — điểm tham quan tại Mù Cang Chải. Mô tả chi tiết đang được cập nhật.",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – ảnh điểm đến \"Đèo Khau Phạ\"",
+   "sourceUrl": null,
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [],
+   "homestayProfile": null,
+   "attractionProfile": {
+    "needs": null,
+    "suitableSessions": null
+   },
+   "serviceProfile": null,
+   "photoFolders": [
+    "Đèo Khau Phạ"
+   ],
+   "origins": [],
+   "notes": [],
+   "holdBack": null
+  }
+ ],
+ "festivals": [],
+ "existingRefs": [],
+ "folders": [
+  {
+   "folder": "Hoa Đào Rừng La Pán Tẩn",
+   "images": [
+    "Hoa Đào Rừng La Pán Tẩn/IMG_4553.PNG",
+    "Hoa Đào Rừng La Pán Tẩn/IMG_4707.JPG",
+    "Hoa Đào Rừng La Pán Tẩn/IMG_4708.JPG",
+    "Hoa Đào Rừng La Pán Tẩn/IMG_4709.JPG",
+    "Hoa Đào Rừng La Pán Tẩn/IMG_9332.JPG",
+    "Hoa Đào Rừng La Pán Tẩn/IMG_9361.JPG"
+   ],
+   "videos": [],
+   "target": "hoa-dao-rung-la-pan-tan",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Hoa đào rừng Móng Ngựa",
+   "images": [
+    "Hoa đào rừng Móng Ngựa/IMG_1007.JPG",
+    "Hoa đào rừng Móng Ngựa/IMG_1010.JPG",
+    "Hoa đào rừng Móng Ngựa/IMG_1016.JPG",
+    "Hoa đào rừng Móng Ngựa/IMG_1027.jpg",
+    "Hoa đào rừng Móng Ngựa/IMG_4972.JPG",
+    "Hoa đào rừng Móng Ngựa/IMG_6879.JPG",
+    "Hoa đào rừng Móng Ngựa/IMG_7083.JPG"
+   ],
+   "videos": [],
+   "target": "hoa-dao-rung-mong-ngua",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Hú Chù Lìn",
+   "images": [
+    "Hú Chù Lìn/DJI_20261012092322_0237_D.JPG",
+    "Hú Chù Lìn/DJI_20261012092647_0238_D.JPG",
+    "Hú Chù Lìn/DJI_20261012092650_0239_D.JPG",
+    "Hú Chù Lìn/DJI_20261012092714_0240_D.JPG",
+    "Hú Chù Lìn/DJI_20261012095657_0262_D.JPG",
+    "Hú Chù Lìn/DJI_20261012095701_0263_D.JPG",
+    "Hú Chù Lìn/DJI_20261012095702_0264_D.JPG",
+    "Hú Chù Lìn/DJI_20261012104648_0288_D.JPG",
+    "Hú Chù Lìn/DJI_20261012104653_0289_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105330_0291_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105342_0292_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105404_0293_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105418_0294_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105441_0295_D.JPG",
+    "Hú Chù Lìn/DJI_20261012105445_0296_D.JPG"
+   ],
+   "videos": [],
+   "target": "hu-chu-lin",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Mâm Xôi Lớn",
+   "images": [
+    "Mâm Xôi Lớn/DJI_20260905082320_0144_D.jpeg",
+    "Mâm Xôi Lớn/DJI_20260905084042_0164_D.jpeg",
+    "Mâm Xôi Lớn/DJI_20260905084629_0176_D.jpeg",
+    "Mâm Xôi Lớn/DJI_20260928080446_0316_D.jpeg",
+    "Mâm Xôi Lớn/DJI_20260928080536_0319_D.jpeg",
+    "Mâm Xôi Lớn/DJI_20260928081040_0333_D.jpeg",
+    "Mâm Xôi Lớn/IMG_0602.JPG",
+    "Mâm Xôi Lớn/IMG_0603.JPG",
+    "Mâm Xôi Lớn/IMG_9746.JPG",
+    "Mâm Xôi Lớn/IMG_9746.jpeg",
+    "Mâm Xôi Lớn/IMG_9747.JPG",
+    "Mâm Xôi Lớn/dji_fly_20261029_114706_0578_1793249666975_photo.jpg",
+    "Mâm Xôi Lớn/dji_fly_20261029_115054_0592_1793249657815_photo.jpg",
+    "Mâm Xôi Lớn/dji_fly_20261029_155626_0641_1793264582889_photo.jpg"
+   ],
+   "videos": [],
+   "target": "mam-xoi-lon",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Nhà Ngô",
+   "images": [
+    "Nhà Ngô/IMG_6873.JPG",
+    "Nhà Ngô/IMG_6879.JPG",
+    "Nhà Ngô/IMG_7050.JPG",
+    "Nhà Ngô/IMG_7083.JPG"
+   ],
+   "videos": [
+    "Nhà Ngô/IMG_1468.MOV",
+    "Nhà Ngô/IMG_1469.MOV",
+    "Nhà Ngô/IMG_1471.MOV",
+    "Nhà Ngô/IMG_1474.MOV",
+    "Nhà Ngô/IMG_1499.MOV",
+    "Nhà Ngô/IMG_1503.MOV"
+   ],
+   "target": "nha-ngo",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Rừng Trúc",
+   "images": [
+    "Rừng Trúc/IMG_3396.JPG",
+    "Rừng Trúc/IMG_3397.JPG",
+    "Rừng Trúc/IMG_3398.JPG",
+    "Rừng Trúc/IMG_3399.JPG",
+    "Rừng Trúc/IMG_5567.JPG",
+    "Rừng Trúc/IMG_8507.PNG",
+    "Rừng Trúc/IMG_8510.PNG",
+    "Rừng Trúc/IMG_8511.PNG",
+    "Rừng Trúc/IMG_8513.PNG",
+    "Rừng Trúc/IMG_8514.PNG"
+   ],
+   "videos": [],
+   "target": "rung-truc",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Sống Lưng Khủng Long",
+   "images": [
+    "Sống Lưng Khủng Long/DJI_20260919155532_0250_D.jpeg",
+    "Sống Lưng Khủng Long/DJI_20261003052755_0155_D.JPG",
+    "Sống Lưng Khủng Long/DJI_20261004083017_0019_D.JPG",
+    "Sống Lưng Khủng Long/DJI_20261004083116_0020_D.JPG",
+    "Sống Lưng Khủng Long/DJI_20261005114707_0113_D.JPG"
+   ],
+   "videos": [],
+   "target": "song-lung-khung-long",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Thác 7 Tầng",
+   "images": [
+    "Thác 7 Tầng/IMG_3378.JPG",
+    "Thác 7 Tầng/IMG_3382.JPG",
+    "Thác 7 Tầng/IMG_3400.JPG",
+    "Thác 7 Tầng/IMG_3401.JPG"
+   ],
+   "videos": [],
+   "target": "thac-7-tang",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Võng Lúa Lao Chải",
+   "images": [
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261012124346_0326_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261012124438_0330_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261012124453_0332_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261012130208_0343_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013090551_0086_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091145_0118_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091257_0122_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091325_0125_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091336_0126_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091401_0129_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091430_0130_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013091439_0131_D.JPG",
+    "Võng Lúa Lao Chải/Bản sao của DJI_20261013092152_0141_D.JPG"
+   ],
+   "videos": [],
+   "target": "vong-lua-lao-chai",
+   "targetKind": "new"
+  },
+  {
+   "folder": "Đèo Khau Phạ",
+   "images": [
+    "Đèo Khau Phạ/IMG_3406.JPG",
+    "Đèo Khau Phạ/IMG_3407.JPG",
+    "Đèo Khau Phạ/IMG_3408.JPG",
+    "Đèo Khau Phạ/IMG_3409.JPG",
+    "Đèo Khau Phạ/IMG_3411.JPG",
+    "Đèo Khau Phạ/IMG_3412.JPG",
+    "Đèo Khau Phạ/IMG_3414.JPG"
+   ],
+   "videos": [],
+   "target": "deo-khau-pha",
+   "targetKind": "new"
+  }
+ ],
+ "unmapped": []
+}

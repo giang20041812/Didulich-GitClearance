@@ -1,0 +1,1396 @@
+{
+ "meta": {
+  "source": "Tổng hợp thông tin ĐiMCC.xlsx",
+  "builtAt": "2026-11-04",
+  "sheets": [
+   "Homestay"
+  ]
+ },
+ "places": [
+  {
+   "key": "hs:homestay-anh-tuc",
+   "kind": "HOMESTAY",
+   "name": "Homestay Anh Túc",
+   "slug": "homestay-anh-tuc",
+   "regionCode": "MCC_KIM_NOI",
+   "address": "Thôn Khim Nọi",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn Khim Nọi (cách trung tâm thị trấn 1km).\nLoại phòng: 3 phòng đơn, 4 phòng đôi, 1 phòng nhà gỗ, 1 phòng sàn",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 4)",
+   "sourceUrl": "https://maps.app.goo.gl/kNEzaYwbscE7dBni8",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Không gian chung rộng, xanh mát, các phòng tách biệt riêng tư, có phục vụ ăn uống tại chỗ. xung quanh view cánh đồng lúa"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, nước nóng, điều hòa, lửa trại, giao lưu văn nghệ, góc check-in, trải nghiệm bản địa, nhận cơm đoàn"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 4
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:new-highland-hotel",
+   "kind": "HOMESTAY",
+   "name": "New Highland Hotel",
+   "slug": "new-highland-hotel",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc cao cấp.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 0,5km).\nLoại phòng: 9 phòng đơn, 12 phòng đôi, 1 phòng 4 giường\nĂn uống gần đó: Nhà Hàng Quyền Hường 100m, Quán Trâm Pa Pỉnh Tộp 50m, NH Thùy Linh 500m, NH Thành Oanh, Thắng Dung, Suối Mơ 1km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 5)",
+   "sourceUrl": "https://maps.app.goo.gl/xdCor2hxA9UNpT1J9",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Phòng sang trọng lịch sự, gần các quán ăn ngon, lễ tân tận tình chu đáo, có thang máy"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Cao cấp",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/Newhightland hotel"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 5
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:homestay-mua-vang",
+   "kind": "HOMESTAY",
+   "name": "Homestay Mùa Vàng",
+   "slug": "homestay-mua-vang",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: 8 phòng đơn (1 giường đôi), 7 phòng đôi (2 giường)\nĂn uống gần đó: Nhà Hàng Quyền Hường 50m, Quán Trâm Pa Pỉnh Tộp 100m, NH Thùy Linh 1km, NH Thành Oanh, Thắng Dung, Suối Mơ 1,2km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 6)",
+   "sourceUrl": "https://maps.app.goo.gl/JihXMRmHxkM8a11RA",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Phòng rộng rãi sạch sẽ, gần đường QL có chỗ đõ xe tù 4 đến 45 chỗ. không gian chung rộng, gần các nhà hàng Quyền Hường, Trâm Pa Pỉnh Tộp"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 6
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:trai-ban-homestay",
+   "kind": "HOMESTAY",
+   "name": "Trai Bản Homestay",
+   "slug": "trai-ban-homestay",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc bình dân.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: Bungalow riêng tư cho cặp đôi/gia đình; có thể có phòng cộng đồng (tùy thời điểm nâng cấp)",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 7)",
+   "sourceUrl": "https://maps.app.goo.gl/Z7oCRgZoPHDhikZs5",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Không gian chung rộng rãi, có tổ chức các đêm giao lưu văn nghệ, các món ẩm thực đặc sắc, view cánh đống lúa, trang trí sân vườn đẹp"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, giao lưu văn nghệ, góc check-in, trải nghiệm bản địa, nhận cơm đoàn"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 7
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:hoa-son-tra-hotel",
+   "kind": "HOMESTAY",
+   "name": "Hoa Sơn Tra Hotel",
+   "slug": "hoa-son-tra-hotel",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc tầm trung.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: 6 phòng 1 giường to, 3 phòng 2 giường nhỏ, 3 phòng 2 giường lớn\nĂn uống gần đó: Nhà Hàng Quyền Hường 50m, Quán Trâm Pa Pỉnh Tộp 100m, NH Thùy Linh 1km, NH Thành Oanh, Thắng Dung, Suối Mơ 1,2km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 8)",
+   "sourceUrl": "https://maps.app.goo.gl/vr2g7Fv9dAx4Cssx7",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Mặt đường QL 32 phòng mới, sang trọng"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/Hoa sơn tra"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 8
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:nha-nghi-duy-vu",
+   "kind": "HOMESTAY",
+   "name": "Nhà nghỉ Duy Vũ",
+   "slug": "nha-nghi-duy-vu",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Nhà nghỉ – phân khúc bình dân.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: 2 phòng đơn, 14 phòng đôi. phòng đơn giường 1m8, phòng đôi 1.6m\nĂn uống gần đó: Quán cơm Vân Mười 15m, Nhà Hàng Quyền Hường 2,5km, Quán Trâm Pa Pỉnh Tộp 2,4km, NH Thùy Linh 2,5km, NH Thành Oanh, Thắng Dung, Suối Mơ 2km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 9)",
+   "sourceUrl": "https://maps.app.goo.gl/xx94RwHdgQa9rLHq9",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Số lượng phòng lớn, mặt đường QL 32,"
+    },
+    {
+     "type": "CON",
+     "content": "Phòng đơn giản phù hợp khách đoàn, khách không kỹ tính"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 9
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:baan-mali-homestay",
+   "kind": "HOMESTAY",
+   "name": "Baan Mali Homestay",
+   "slug": "baan-mali-homestay",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: 7 phòng khép kín: 3 đơn, 4 đôi + 1 phòng cộng đồng\nĂn uống gần đó: Nhà Hàng Quyền Hường 500m, Quán Trâm Pa Pỉnh Tộp 600m, NH Thùy Linh 2km, NH Thành Oanh, Thắng Dung, Suối Mơ 2.5km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 10)",
+   "sourceUrl": "https://maps.app.goo.gl/N1aSWRo1P5SFhx9bA?g_st=ic",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Đầu tư bài bản, không gian chung trước và sau rộng rãi. phòng cộng đồng rộng sang trọng, khu vệ sinh chung rộng sạch sẽ"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 10
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:homestay-hoa-thao",
+   "kind": "HOMESTAY",
+   "name": "Homestay Hoà Thảo",
+   "slug": "homestay-hoa-thao",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 1,5km).\nLoại phòng: 4 phòng đơn, 4 phòng đôi, 1 phòng cheap; dorm 3–4 phòng\nĂn uống gần đó: Nhà Hàng Quyền Hường 500m, Quán Trâm Pa Pỉnh Tộp 600m, NH Thùy Linh 2km, NH Thành Oanh, Thắng Dung, Suối Mơ 2.5km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 11)",
+   "sourceUrl": "https://maps.app.goo.gl/8xr2FzvdQbNYjQTA9",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Nhà sàn phong cách bản địa. các phòng tầng âm rộng view lúa. chủ home hiền lành thân thiện, gàn quốc lộ 32 có sân để xe riêng"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "view núi / săn mây",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 11
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:homestay-bao-lan",
+   "kind": "HOMESTAY",
+   "name": "Homestay Bảo Lan",
+   "slug": "homestay-bao-lan",
+   "regionCode": "MCC_KIM_NOI",
+   "address": "Thôn Khim Nọi Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn Khim Nọi Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: Chủ yếu nhà sàn, một ít phòng đơn, một ít phòng đôi\nĂn uống gần đó: Nhà Hàng Quyền Hường 2m, Quán Trâm Pa Pỉnh Tộp 2m, NH Thùy Linh 1.5km, NH Thành Oanh, Thắng Dung, Suối Mơ 1km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 13)",
+   "sourceUrl": "https://maps.app.goo.gl/PRfKszUReXakHuvG7?g_st=ic",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, sưởi / chăn điện, lửa trại, giao lưu văn nghệ"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 13
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:co-gai-thai-homestay",
+   "kind": "HOMESTAY",
+   "name": "Cô Gái Thái Homestay",
+   "slug": "co-gai-thai-homestay",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc bình dân.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 1Km).\nLoại phòng: Tổng 6 phòng: 2 phòng đơn, 2 phòng đôi, 2 phòng 3 giường kê đệm",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 16)",
+   "sourceUrl": "https://maps.app.goo.gl/GjdobF5UVooik5z16",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Không gian chung rộng rãi, có tổ chức các đêm giao lưu văn nghệ, các món ẩm thực đặc sắc, view cánh đống lúa, trang trí sân vườn đẹp"
+    },
+    {
+     "type": "CON",
+     "content": "Cách âm kém"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, giao lưu văn nghệ, trải nghiệm bản địa, nhận cơm đoàn, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 16
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:moc-homestay",
+   "kind": "HOMESTAY",
+   "name": "Mộc Homestay",
+   "slug": "moc-homestay",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc bình dân.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 2km).\nLoại phòng: 6 phòng 4 người\nĂn uống gần đó: Nhà Hàng Quyền Hường 1.5km, Quán Trâm Pa Pỉnh Tộp 1.6km, NH Thùy Linh 2.5km, NH Thành Oanh, Thắng Dung, Suối Mơ 2.7km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 17)",
+   "sourceUrl": "https://maps.app.goo.gl/GcUpj9Y5DRAC4BE99",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "phong cách tối giản, không gian chung view lúa thoáng mát"
+    },
+    {
+     "type": "CON",
+     "content": "không có điều hòa, cách âm kém"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/ẢNH MỘC HOMESTAY"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 17
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:bungalow-xuan-giang",
+   "kind": "HOMESTAY",
+   "name": "Bungalow Xuân Giang",
+   "slug": "bungalow-xuan-giang",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Bungalow – phân khúc tầm trung.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 2km).\nLoại phòng: Đơn 1 giường: 6 căn; đơn 2 giường: 4 căn; 3 giường: 1 căn\nĂn uống gần đó: Nhà Hàng Quyền Hường 500m, Quán Trâm Pa Pỉnh Tộp 600m, NH Thùy Linh 2km, NH Thành Oanh, Thắng Dung, Suối Mơ 2.5km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 18)",
+   "sourceUrl": "https://maps.app.goo.gl/1F62FAwmAU69yJzP8",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "bugalow khép kín riêng tư, không gian chung mát mẻ, rộng. có phục vụ ăn và uống. thuận tiện đi lại, có bãi đỗ xe"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, giao lưu văn nghệ, góc check-in, trải nghiệm bản địa, nhận cơm đoàn, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 18
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:hotel-thuat-hoa",
+   "kind": "HOMESTAY",
+   "name": "Hotel Thuật Hòa",
+   "slug": "hotel-thuat-hoa",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc bình dân.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 0km).",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 19)",
+   "sourceUrl": "https://maps.app.goo.gl/4tBKooFQ9GHr1JUY6",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, nhận cơm đoàn"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 19
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:chelly-hotel",
+   "kind": "HOMESTAY",
+   "name": "Chelly Hotel",
+   "slug": "chelly-hotel",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn Hoàng Liên Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc tầm trung.\nĐịa chỉ: Thôn Hoàng Liên Xã Mù Cang Chải (cách trung tâm thị trấn 2km).\nLoại phòng: 9 phòng đơn, 1 phòng đôi\nĂn uống gần đó: A Tân Quán 200m, Nhà Hàng Quyền Hường 1.5km, Quán Trâm Pa Pỉnh Tộp 1.6km, NH Thùy Linh 2.5km, NH Thành Oanh, Thắng Dung, Suối Mơ 2.7km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 20)",
+   "sourceUrl": "https://maps.app.goo.gl/LALfNvN1rDFnAeFNA",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Phòng sang trọng lịch sự, có bãi đỗ xe riêng"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/Chely Hotel"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 20
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:doi-doi-gio",
+   "kind": "HOMESTAY",
+   "name": "Đồi Đổi Gió",
+   "slug": "doi-doi-gio",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Homestay – phân khúc tầm trung.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 0.5km).\nLoại phòng: 2 phòng đơn, 4 phòng đôi, 4 phòng bungalow, 1 phòng triple",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 22)",
+   "sourceUrl": "https://maps.app.goo.gl/vYKGVhZDMGwMnVaw7",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "sân vườn trang trí độc đáo, có phục vụ ăn uống. phòng sang trọng tiện nghi"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND",
+    "MOTORBIKE_RENTAL"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa, view núi / săn mây",
+    "suitability": "Tầm trung",
+    "otherAmenities": "WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, giao lưu văn nghệ, góc check-in, nhận cơm đoàn, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 22
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:mu-cang-chai-lu-tre",
+   "kind": "HOMESTAY",
+   "name": "Mù Cang Chải Lu Trế",
+   "slug": "mu-cang-chai-lu-tre",
+   "regionCode": "MCC_KIM_NOI",
+   "address": "Thôn Khim Nọi Xã Mù Cang Chải",
+   "description": "Bungalow – phân khúc tầm trung.\nĐịa chỉ: Thôn Khim Nọi Xã Mù Cang Chải (cách trung tâm thị trấn 2km).\nĂn uống gần đó: A Tân Quán 300m, Nhà Hàng Quyền Hường 2km, Quán Trâm Pa Pỉnh Tộp 2,1km, NH Thùy Linh 5km, NH Thành Oanh, Thắng Dung, Suối Mơ 3.2km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 23)",
+   "sourceUrl": "https://maps.app.goo.gl/jNDjU5UMEwFNeexD8",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Bugalow rộng, giá cả phải chăng, không gian sân vườn rộng, thuận tiện đi lại"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, trải nghiệm bản địa, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 23
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:mai-linh-hotel",
+   "kind": "HOMESTAY",
+   "name": "Mai Linh Hotel",
+   "slug": "mai-linh-hotel",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc tầm trung.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 0km).\nLoại phòng: Tổng 20 phòng: 7 phòng đơn, 13 phòng đôi\nĂn uống gần đó: Vườn Đào Quán, 10m Nhà Hàng Quyền Hường 1.5km, Quán Trâm Pa Pỉnh Tộp 1.4km, NH Thùy Linh 500m, NH Thành Oanh, Thắng Dung, Suối Mơ 600m",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 24)",
+   "sourceUrl": "https://maps.app.goo.gl/Mx1Ryi3sTXU44UDo7",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Số lượng phòng lớn, thuận tiện đi lại, có bể bơi"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "MEAL_ON_DEMAND",
+    "MOTORBIKE_RENTAL"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, điều hòa, trải nghiệm bản địa, nhận cơm đoàn, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/Mai Linh Hotel"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 24
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:homestay-hien-quang",
+   "kind": "HOMESTAY",
+   "name": "Homestay Hiền Quang",
+   "slug": "homestay-hien-quang",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "thôn Hoàng Liên xã Mù Cang Chải",
+   "description": "Homestay – phân khúc bình dân.\nĐịa chỉ: thôn Hoàng Liên xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nLoại phòng: 1 sàn cộng đồng gồm 5 phòng riêng k khép kin với 5 nhà WC chung, 1 căn giường 2m, 1 căn 2 giường 1m6",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 30)",
+   "sourceUrl": "https://maps.app.goo.gl/eh6bKEGMLTEAWMg96",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "Không gian chung rộng rãi, có tổ chức các đêm giao lưu văn nghệ, các món ẩm thực đặc sắc, view cánh đống lúa, trang trí sân vườn đẹp"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "BBQ_AREA",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": "ban công / view lúa",
+    "suitability": "Bình dân",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung, lửa trại, giao lưu văn nghệ, góc check-in, trải nghiệm bản địa, nhận cơm đoàn, cho bay flycam"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [
+    "ẢNH HOMESTAY MCC/Homestay Hiền Quang"
+   ],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 30
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  },
+  {
+   "key": "hs:hotel-moon-2",
+   "kind": "HOMESTAY",
+   "name": "Hotel Moon 2",
+   "slug": "hotel-moon-2",
+   "regionCode": "MCC_THI_TRAN",
+   "address": "Thôn trung tâm Xã Mù Cang Chải",
+   "description": "Khách sạn – phân khúc tầm trung.\nĐịa chỉ: Thôn trung tâm Xã Mù Cang Chải (cách trung tâm thị trấn 1km).\nĂn uống gần đó: Quán cơm Vân Mười 15m, Nhà Hàng Quyền Hường 2,5km, Quán Trâm Pa Pỉnh Tộp 2,4km, NH Thùy Linh 2,5km, NH Thành Oanh, Thắng Dung, Suối Mơ 2km",
+   "accessNote": null,
+   "latitude": null,
+   "longitude": null,
+   "altitudeM": null,
+   "priceRefMin": null,
+   "priceRefMax": null,
+   "priceUnitNote": null,
+   "googleRating": null,
+   "sourceName": "DATA CHÍNH THỐNG – Tổng hợp thông tin ĐiMCC.xlsx › Homestay (hàng 32)",
+   "sourceUrl": "https://maps.app.goo.gl/bgNd6qNYHmSnNoCk8",
+   "operationNote": null,
+   "contacts": [],
+   "highlights": [
+    {
+     "type": "PRO",
+     "content": "sân đỗ xe rộng, nhiều phòng và hạng phòng, ngay gần QL 32"
+    }
+   ],
+   "amenities": [
+    "FREE_PARKING",
+    "FREE_WIFI",
+    "MEAL_ON_DEMAND"
+   ],
+   "homestayProfile": {
+    "viewHighlight": null,
+    "suitability": "Tầm trung",
+    "otherAmenities": "xe lớn (29–45 chỗ) vào tận nơi, WC riêng từng phòng, nước nóng, điều hòa, sân chung"
+   },
+   "attractionProfile": null,
+   "serviceProfile": null,
+   "photoFolders": [],
+   "origins": [
+    {
+     "sheet": "Homestay",
+     "row": 32
+    }
+   ],
+   "notes": [],
+   "holdBack": null
+  }
+ ],
+ "festivals": [],
+ "existingRefs": [],
+ "folders": [
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC/ẢNH TỔNG QUAN + PHÒNG/IMG_5493.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC/ẢNH TỔNG QUAN + PHÒNG/IMG_5501.JPG"
+   ],
+   "videos": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY ANH TÚC/Video tổng quan/Bản sao của DJI_20260924161455_0473_D.MP4"
+   ],
+   "target": "homestay-anh-tuc",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/Newhightland hotel",
+   "images": [
+    "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh Phòng/1789997256434_4708393126238020809_g1614094742866789112_632a53f71cb42c3192da3bdfc25dd447.jpg",
+    "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh Phòng/1789997256477_4708393126238020809_g1614094742866789112_6510a7cffdf9936d789e0491aedd2800.jpg",
+    "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh khuôn viên/1789997256305_4708393126238020809_g1614094742866789112_317b75293e3561c05313189dfc2c3b3c.jpg",
+    "ẢNH HOMESTAY MCC/Newhightland hotel/Ảnh tổng quan bên ngoài/1789997256351_4708393126238020809_g1614094742866789112_91dcb360b8f5bac852bcd294695b04e6.jpg"
+   ],
+   "videos": [],
+   "target": "new-highland-hotel",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG/ẢNH PHÒNG/Ảnh phòng/IMG_5539.JPG",
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY MÙA VÀNG/ẢNH PHÒNG/Ảnh tổng quan/IMG_5540.JPG"
+   ],
+   "videos": [],
+   "target": "homestay-mua-vang",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/3P HOMESTAY/IMG_5596.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/3P HOMESTAY/IMG_5598.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5590.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5591.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5594.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/7P BULGALOW/IMG_5595.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Khuôn viên/1790145681529_1502186757383306822_g901265921353449247_dd239c2745a102077060e5aa0c5cbb37.jpg",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Ảnh thẻ/1793696342252_1502186757383306822_1502186757383306822_89b8689e4f8fd7c192ebc1d8cd696b53.jpg"
+   ],
+   "videos": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Khuôn viên/1790145748415_1502186757383306822_g901265921353449247.mp4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH TRAI BẢN HOMESTAY/Video/Bản sao của 1790145622005_1502186757383306822_g901265921353449247.mp4"
+   ],
+   "target": "trai-ban-homestay",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/Hoa sơn tra",
+   "images": [
+    "ẢNH HOMESTAY MCC/Hoa sơn tra/Ảnh khuôn viên/1791466070276_3752177215775102092_g3654053810288981291_0cd315041ee1f43002e80f2dcb7e19bf.jpg",
+    "ẢNH HOMESTAY MCC/Hoa sơn tra/Ảnh phòng/1790143061978_3752177215775102092_g3654053810288981291_e71e5160f90407af4c25a937ad8b5d3c.jpg"
+   ],
+   "videos": [],
+   "target": "hoa-son-tra-hotel",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh khuôn viên/1790000212702_1634471598576421424_g7115720524183294046_27667159dd3fd70ca2d55c7a0bf9b992.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh khuôn viên/1790000212734_1634471598576421424_g7115720524183294046_1e545511ea484bc62277cbb4bd64a3ec.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH BAAN MA LÍ HOMESTAY/ẢNH PHÒNG/Ảnh tổng quan/IMG_5519.JPG"
+   ],
+   "videos": [],
+   "target": "baan-mali-homestay",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5564.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5569.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5572.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5579.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5580.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH HOMESTAY HOÀ THẢO/ẢNH PHÒNG/IMG_5581.JPG"
+   ],
+   "videos": [],
+   "target": "homestay-hoa-thao",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH HOMESTAY CƯỜNG TÚ",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY CƯỜNG TÚ/Ảnh phòng/1790341035932_1561841435112033074_g6534061792869451059_e46886832778f7b3d77a621e5b2b689a.jpg"
+   ],
+   "videos": [],
+   "target": null,
+   "targetKind": "existing",
+   "existingName": "Homestay Cường Tú"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN/Ảnh Phòng/1790512229570_69340970967139432_g4343232996357081304_644bac189e5a1ddfdf8fbc4fd5c8c997.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN/Ảnh Phòng/1790512238959_69340970967139432_g4343232996357081304_6f058b31742b4c0947d1b49e54b1692f.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN/Ảnh Phòng/1790512239082_69340970967139432_g4343232996357081304_5f292ef871aba55187edfc6ee09d2269.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN/Ảnh Phòng/1790512310469_69340970967139432_g4343232996357081304_0dc0d08f52ebd54289e72512bfb0d3bb.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH HOMESTAY BẢO LAN/Ảnh Phòng/1790512323183_69340970967139432_g4343232996357081304_5a2e190141ab50247e66e974c9664da0.jpg"
+   ],
+   "videos": [],
+   "target": "homestay-bao-lan",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Khuôn viên/1791695332408_8261338247700129336_g7211278840916510093_11b228a3dd813b2b2ab45a32f96b9eb7.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Khuôn viên/1791695512863_8261338247700129336_g7211278840916510093_d76f2d0b25b24756a9607f5e3dd96ea4.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1791779609992_8261338247700129336_g7211278840916510093_2fa702fcd57a7840bdde3382e15f1c5d.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1791779894254_8261338247700129336_g7211278840916510093_07188f4e95423a46f399217845c27461.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1791780549802_1687389692416462836_g7211278840916510093_4eea166ed71cf7db78df780cb337553a.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1791780549886_1687389692416462836_g7211278840916510093_54d9fbdb5cf5e81c9719dfe041a571f7.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1792502830790_4438827703589656071_g1280690930883929691_a8ac81369e63419cbc888ad956dc4fbc.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH PÚ NHU HOUSE/Ảnh phòng/1792735984461_4438827703589656071_g1280690930883929691_9e94493fdbe220e22d6124bf7e1cd9a0.jpg"
+   ],
+   "videos": [],
+   "target": null,
+   "targetKind": "existing",
+   "existingName": "Pú Nhu Homestay"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DJI_20261015211648_0634_D.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DJI_20261015211652_0635_D.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DSC03496.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Ảnh/DSC03503.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5736.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5748.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Khuôn viên ngoài/IMG_5761.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh Thẻ/Bản sao của IMG_5745.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5744.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5750.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5759.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Ảnh phòng/IMG_5760.JPG"
+   ],
+   "videos": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Dọc/DJI_20261015212327_0646_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015205017_0600_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015205748_0615_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015210239_0618_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015210306_0619_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015210343_0621_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015211803_0639_D.MP4",
+    "ẢNH HOMESTAY MCC/🍀ẢNH CÔ GÁI THÁI HOMESTAY/Home Cô Gái Thái/Video/Ngang/DJI_20261015212338_0648_D.MP4"
+   ],
+   "target": "co-gai-thai-homestay",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/ẢNH MỘC HOMESTAY",
+   "images": [
+    "ẢNH HOMESTAY MCC/ẢNH MỘC HOMESTAY/Ảnh khuôn viên/1790161512621_6418902057338716042_g7578737515518408371_2ad1a8725743fe91ad77353bdddabd98.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH MỘC HOMESTAY/Ảnh phòng/1790161568691_6418902057338716042_g7578737515518408371_d3a60d334ea7beec73fe1c11fb1c7510.jpg",
+    "ẢNH HOMESTAY MCC/ẢNH MỘC HOMESTAY/Ảnh phòng/1790161568715_6418902057338716042_g7578737515518408371_50e18ee54f5a3ab18f0ec34bd2c215e6.jpg"
+   ],
+   "videos": [],
+   "target": "moc-homestay",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5711.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5714.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5727.JPG",
+    "ẢNH HOMESTAY MCC/🍀ẢNH BULGALOW XUÂN GIANG/Ảnh phòng + khuôn viên/IMG_5728.JPG"
+   ],
+   "videos": [],
+   "target": "bungalow-xuan-giang",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/Chely Hotel",
+   "images": [
+    "ẢNH HOMESTAY MCC/Chely Hotel/Ảnh tổng quan/DJI_20261028111106_0359_D.JPG"
+   ],
+   "videos": [],
+   "target": "chelly-hotel",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay",
+   "images": [
+    "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay/Ảnh phòng/Tổng quan/IMG_6258.JPG",
+    "ẢNH HOMESTAY MCC/🍀Đồi đổi gió homestay/Ảnh phòng/Ảnh Phòng/IMG_6259.JPG"
+   ],
+   "videos": [],
+   "target": "doi-doi-gio",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/Mai Linh Hotel",
+   "images": [
+    "ẢNH HOMESTAY MCC/Mai Linh Hotel/Khuông viên/1790518684771_1561841435112033074_g8927124569245346429_ba3e3c9bdc7318411ee3156b919064f1.jpg",
+    "ẢNH HOMESTAY MCC/Mai Linh Hotel/Ảnh phòng/1790518688043_1561841435112033074_g8927124569245346429_f9bb6e98ddc08df37e697465cf151b08.jpg",
+    "ẢNH HOMESTAY MCC/Mai Linh Hotel/Ảnh phòng/1790518754836_5111332639817390961_g8927124569245346429_b3bef6bc3012c8d9463be171350fa093.jpg"
+   ],
+   "videos": [
+    "ẢNH HOMESTAY MCC/Mai Linh Hotel/Khuông viên/1790518754826_5111332639817390961_g8927124569245346429.mp4"
+   ],
+   "target": "mai-linh-hotel",
+   "targetKind": "new"
+  },
+  {
+   "folder": "ẢNH HOMESTAY MCC/Homestay Hiền Quang",
+   "images": [
+    "ẢNH HOMESTAY MCC/Homestay Hiền Quang/Ảnh Phòng/1792593179026_707436353008347727_g6386992154991823165_ca9e7e206ce6a18efd91077443316006.jpg",
+    "ẢNH HOMESTAY MCC/Homestay Hiền Quang/Ảnh khuôn viên/1792593169447_707436353008347727_g6386992154991823165_592e262b01bc32a55e238471f8791390.jpg"
+   ],
+   "videos": [],
+   "target": "homestay-hien-quang",
+   "targetKind": "new"
+  }
+ ],
+ "unmapped": [],
+ "nearby": [
+  {
+   "slug": "homestay-anh-tuc",
+   "name": "Homestay Anh Túc",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 4
+  },
+  {
+   "slug": "new-highland-hotel",
+   "name": "New Highland Hotel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 5
+  },
+  {
+   "slug": "homestay-mua-vang",
+   "name": "Homestay Mùa Vàng",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 6
+  },
+  {
+   "slug": "trai-ban-homestay",
+   "name": "Trai Bản Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 7
+  },
+  {
+   "slug": "hoa-son-tra-hotel",
+   "name": "Hoa Sơn Tra Hotel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 8
+  },
+  {
+   "slug": "nha-nghi-duy-vu",
+   "name": "Nhà nghỉ Duy Vũ",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 9
+  },
+  {
+   "slug": "baan-mali-homestay",
+   "name": "Baan Mali Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 10
+  },
+  {
+   "slug": "homestay-hoa-thao",
+   "name": "Homestay Hoà Thảo",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 11
+  },
+  {
+   "slug": "homestay-cuong-tu",
+   "name": "Homestay Cường Tú",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 12
+  },
+  {
+   "slug": "homestay-bao-lan",
+   "name": "Homestay Bảo Lan",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 13
+  },
+  {
+   "slug": "winds-homestay",
+   "name": "Win Homestay",
+   "content": "Móng Ngựa 4km · Mâm xôi 10km · Rừng trúc 4km · Kim Nọi 7km · Háng Đăng Dê 4km · Sống lưng KL 8km",
+   "existing": true,
+   "row": 14
+  },
+  {
+   "slug": "pu-nhu-homestay",
+   "name": "Pú Nhu House",
+   "content": "Móng Ngựa 12km · Mâm xôi 1km · Rừng trúc 4km · Kim Nọi 17km · Háng Đăng Dê 13km · Sống lưng KL 8km",
+   "existing": true,
+   "row": 15
+  },
+  {
+   "slug": "co-gai-thai-homestay",
+   "name": "Cô Gái Thái Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 16
+  },
+  {
+   "slug": "moc-homestay",
+   "name": "Mộc Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 17
+  },
+  {
+   "slug": "bungalow-xuan-giang",
+   "name": "Bungalow Xuân Giang",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 18
+  },
+  {
+   "slug": "hotel-thuat-hoa",
+   "name": "Hotel Thuật Hòa",
+   "content": "Móng Ngựa 3km · Mâm xôi 13km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 19
+  },
+  {
+   "slug": "chelly-hotel",
+   "name": "Chelly Hotel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 20
+  },
+  {
+   "slug": "hanh-phuc-creek",
+   "name": "Hạnh Phúc Creek Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 21
+  },
+  {
+   "slug": "doi-doi-gio",
+   "name": "Đồi Đổi Gió",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 22
+  },
+  {
+   "slug": "mu-cang-chai-lu-tre",
+   "name": "Mù Cang Chải Lu Trế",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 23
+  },
+  {
+   "slug": "mai-linh-hotel",
+   "name": "Mai Linh Hotel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 24
+  },
+  {
+   "slug": "sky-motel",
+   "name": "Sky Motel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 25
+  },
+  {
+   "slug": "nang-hotel",
+   "name": "Nắng Hotel",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 26
+  },
+  {
+   "slug": "nha-nghi-ngu",
+   "name": "Nhà nghỉ Ngủ",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 27
+  },
+  {
+   "slug": "chiba-ecolodge",
+   "name": "Chiba Ecolodge",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 28
+  },
+  {
+   "slug": "ha-chau-2-homestay",
+   "name": "Hà Châu 2 Homestay",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 29
+  },
+  {
+   "slug": "homestay-hien-quang",
+   "name": "Homestay Hiền Quang",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 30
+  },
+  {
+   "slug": "chai-eco-house",
+   "name": "Chải Eco House",
+   "content": "Móng Ngựa 3km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 31
+  },
+  {
+   "slug": "hotel-moon-2",
+   "name": "Hotel Moon 2",
+   "content": "Móng Ngựa 4km · Mâm xôi 14km · Rừng trúc 6km · Kim Nọi 6km · Háng Đăng Dê 3km · Sống lưng KL 10km",
+   "existing": false,
+   "row": 32
+  },
+  {
+   "slug": "nhat-phuong-homestay",
+   "name": "Hotel Nhất Phượng",
+   "content": "Móng Ngựa 4km · Mâm xôi 12km · Rừng trúc 5km · Kim Nọi 5km · Háng Đăng Dê 2km · Sống lưng KL 10km",
+   "existing": true,
+   "row": 33
+  }
+ ]
+}
