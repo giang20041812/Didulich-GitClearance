@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.viettrek_app",
+    "sha256_cert_fingerprints": ["9C:98:17:94:9E:CB:78:8B:18:4D:F3:86:7E:06:BC:B7:75:29:19:6B:52:3E:C0:9F:C6:A7:7D:78:CF:FE:2E:F6"]
+  }
+}]
