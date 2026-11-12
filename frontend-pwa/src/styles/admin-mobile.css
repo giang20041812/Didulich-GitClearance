@@ -1,0 +1,279 @@
+/* Mounted only by the Admin page. Body scoping includes dialogs portaled to body. */
+body.admin-ui-active {
+  --admin-safe-top: var(--safe-top);
+  --admin-safe-bottom: var(--safe-bottom);
+  --admin-safe-left: env(safe-area-inset-left, 0px);
+  --admin-safe-right: env(safe-area-inset-right, 0px);
+}
+
+body.admin-ui-active .admin-overlay-shell,
+body.admin-ui-active .admin-password-modal > div,
+body.admin-ui-active div.pointer-events-none.fixed:has(> [role='dialog']) {
+  position: fixed;
+  inset: auto;
+  top: var(--admin-vv-top, 0px);
+  left: var(--admin-vv-left, 0px);
+  width: var(--admin-vv-width, 100%);
+  height: var(--admin-vv-height, 100dvh);
+  min-height: 0;
+}
+
+body.admin-ui-active .admin-drawer {
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+  padding-top: var(--admin-safe-top);
+  padding-bottom: var(--admin-safe-bottom);
+  overscroll-behavior-y: contain;
+}
+
+body.admin-ui-active .admin-account-drawer {
+  padding-top: calc(1.25rem + var(--admin-safe-top));
+  padding-bottom: calc(1.25rem + var(--admin-safe-bottom));
+}
+
+body.admin-ui-active .admin-notification-panel {
+  position: fixed;
+  top: var(--admin-notification-top);
+  left: var(--admin-notification-left);
+  max-height: var(--admin-notification-max-height);
+}
+
+body.admin-ui-active .admin-dialog-panel {
+  min-height: 0;
+  max-height: 100%;
+  overscroll-behavior-y: contain;
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+}
+
+body.admin-ui-active .admin-dialog-panel > * {
+  flex-shrink: 0;
+}
+
+/* Adapt the shared booking/password dialogs only while they are used in Admin. */
+body.admin-ui-active div.pointer-events-none.fixed:has(> [role='dialog']),
+body.admin-ui-active .admin-password-modal > div {
+  padding: max(12px, var(--admin-safe-top)) max(12px, var(--admin-safe-right)) max(12px, var(--admin-safe-bottom)) max(12px, var(--admin-safe-left));
+}
+
+body.admin-ui-active div.pointer-events-none.fixed > [role='dialog'],
+body.admin-ui-active .admin-password-modal [role='dialog'] {
+  min-height: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+body.admin-ui-active div.pointer-events-none.fixed > [role='dialog'] > * {
+  flex-shrink: 0;
+}
+
+body.admin-ui-active .admin-portal > .admin-overlay-shell:not(.admin-command-shell):has(> .admin-dialog-panel) {
+  padding-top: max(12px, var(--admin-safe-top));
+  padding-bottom: max(12px, var(--admin-safe-bottom));
+}
+
+body.admin-ui-active .admin-form-shell,
+body.admin-ui-active .admin-dialog-shell {
+  padding: max(12px, var(--admin-safe-top)) max(12px, var(--admin-safe-right)) max(12px, var(--admin-safe-bottom)) max(12px, var(--admin-safe-left));
+}
+
+body.admin-ui-active .admin-command-shell .admin-dialog-panel > .admin-scroll-area {
+  flex-shrink: 1;
+}
+
+body.admin-ui-active .admin-page-header {
+  padding-top: var(--admin-safe-top);
+  padding-left: var(--admin-safe-left);
+  padding-right: var(--admin-safe-right);
+}
+
+body.admin-ui-active .admin-main {
+  padding-bottom: calc(5.5rem + var(--admin-safe-bottom));
+}
+
+@media (max-width: 1023.98px) {
+  /* Inputs smaller than 16px trigger Safari's focus zoom. */
+  body.admin-ui-active :is(input, textarea, select) {
+    font-size: 16px;
+  }
+
+  body.admin-ui-active :is(input:not([type='checkbox']):not([type='radio']), select) {
+    min-height: 44px;
+  }
+
+  body.admin-ui-active textarea {
+    scroll-margin-block: 24px;
+  }
+
+  body.admin-ui-active .admin-sidebar-shell {
+    pointer-events: none;
+  }
+
+  body.admin-ui-active .admin-sidebar-shell > * {
+    pointer-events: auto;
+  }
+
+  body.admin-ui-active .admin-sidebar {
+    max-width: calc(100% - 24px);
+    padding-left: var(--admin-safe-left);
+  }
+
+  body.admin-ui-active .admin-command-shell {
+    padding: max(12px, var(--admin-safe-top)) max(12px, var(--admin-safe-right)) max(12px, var(--admin-safe-bottom)) max(12px, var(--admin-safe-left));
+  }
+
+  body.admin-ui-active .admin-notification-panel {
+    position: fixed;
+    top: calc(var(--admin-vv-top, 0px) + max(12px, var(--admin-safe-top)));
+    left: calc(var(--admin-vv-left, 0px) + max(12px, var(--admin-safe-left)));
+    right: auto;
+    width: calc(var(--admin-vv-width, 100vw) - max(12px, var(--admin-safe-left)) - max(12px, var(--admin-safe-right)));
+    max-width: none;
+    max-height: calc(var(--admin-vv-height, 100dvh) - max(12px, var(--admin-safe-top)) - max(12px, var(--admin-safe-bottom)));
+    margin: 0;
+  }
+
+  body.admin-ui-active .admin-bottom-nav {
+    padding-bottom: var(--admin-safe-bottom);
+    padding-left: var(--admin-safe-left);
+    padding-right: var(--admin-safe-right);
+  }
+
+  body.admin-ui-active[data-admin-keyboard='true'] .admin-bottom-nav {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  body.admin-ui-active .admin-drawer :is(header, footer) {
+    flex-shrink: 0;
+  }
+
+  body.admin-ui-active .admin-drawer:not(.admin-account-drawer) {
+    padding-left: var(--admin-safe-left);
+    padding-right: var(--admin-safe-right);
+  }
+
+  body.admin-ui-active .admin-account-drawer {
+    padding-left: calc(1rem + var(--admin-safe-left));
+    padding-right: calc(1rem + var(--admin-safe-right));
+  }
+
+  body.admin-ui-active .admin-drawer[role='dialog'] .text-xs {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  body.admin-ui-active .admin-drawer[role='dialog'] [class~='text-[10px]'] {
+    font-size: 11px;
+  }
+
+  body.admin-ui-active .admin-drawer footer button {
+    min-height: 44px;
+  }
+
+  body.admin-ui-active .admin-drawer :is(dd, p) {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 1024px) {
+  body.admin-ui-active .admin-sidebar-shell {
+    pointer-events: none;
+  }
+
+  body.admin-ui-active .admin-sidebar {
+    pointer-events: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  body.admin-ui-active .admin-main {
+    padding-bottom: 1.25rem;
+  }
+}
+
+/* === Smooth & Organic Motion System for Admin Portal === */
+body.admin-ui-active {
+  --admin-ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --admin-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Buttons micro-interaction inside Admin */
+body.admin-ui-active button {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+  transition-duration: 180ms;
+  transition-timing-function: var(--admin-ease-spring);
+}
+
+body.admin-ui-active button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+/* Table rows smooth hover transition */
+body.admin-ui-active table tbody tr {
+  transition: background-color 150ms var(--admin-ease-out);
+}
+
+/* Tab indicator & buttons inside admin filters */
+body.admin-ui-active [role="tab"] {
+  transition: all 180ms var(--admin-ease-spring);
+}
+
+/* Smooth modal panel entrance override */
+body.admin-ui-active .admin-dialog-panel {
+  animation: adminPanelRise 260ms var(--admin-ease-spring) both;
+}
+
+@keyframes adminPanelRise {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Smooth drawer entrance */
+body.admin-ui-active .panel-slide-in,
+body.admin-ui-active .admin-account-drawer {
+  animation: adminDrawerSlide 280ms var(--admin-ease-spring) both;
+}
+
+@keyframes adminDrawerSlide {
+  from {
+    opacity: 0.4;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Admin overlay smooth backdrop fade */
+body.admin-ui-active .admin-overlay-shell {
+  animation: adminOverlayFade 220ms var(--admin-ease-out) both;
+}
+
+@keyframes adminOverlayFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Reduced motion optimization */
+@media (prefers-reduced-motion: reduce) {
+  body.admin-ui-active * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transform: none !important;
+  }
+}

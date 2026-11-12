@@ -1,0 +1,252 @@
+/* Only the Admin overview uses this palette and surface treatment, tailored to VietTrek's Deep Teal & Nature tones. */
+.admin-overview {
+  --overview-forest: #0a7d64;
+  --overview-forest-dark: #075242;
+  --overview-forest-deep: #0a2e26;
+  --overview-teal: #0d9488;
+  --overview-aqua: #06b6d4;
+  --overview-gold: #eab308;
+  --overview-line: #e2ebe6;
+  --overview-shadow: 0 4px 20px rgba(10, 46, 38, 0.05);
+  padding-bottom: 1.5rem;
+}
+
+.admin-overview .overview-hero {
+  border: 1px solid rgba(10, 125, 100, 0.25);
+  border-radius: 20px;
+  background: linear-gradient(135deg, #09372f 0%, #0a4f41 45%, #0a7d64 100%);
+  box-shadow: 0 16px 36px -12px rgba(10, 46, 38, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overview-landscape {
+  pointer-events: none;
+  position: absolute;
+  right: -5%;
+  bottom: -15%;
+  width: 90%;
+  height: auto;
+  color: #6ee7b7;
+  opacity: 0.18;
+}
+
+.overview-hero-glow {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 75% 0%, rgba(110, 231, 183, 0.18), transparent 60%);
+}
+
+.overview-eyebrow {
+  color: #a7f3d0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.overview-eyebrow span {
+  margin: 0 0.5rem;
+  color: rgba(167, 243, 208, 0.5);
+}
+
+.overview-system-pill {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.admin-overview .overview-hero-title {
+  max-width: 15ch;
+  font-size: clamp(1.75rem, 2.8vw, 2.5rem);
+  line-height: 1.25;
+  color: #ffffff;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.admin-overview .overview-hero-action {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #064e3b;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.admin-overview .overview-hero-action:hover {
+  background: #f0fdf4;
+  color: #047857;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-1px);
+}
+
+.admin-overview .overview-hero-action:active {
+  transform: translateY(0);
+}
+
+.overview-revenue {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+.overview-revenue::before {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  inset: 0 auto auto 10%;
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(167, 243, 208, 0.6), transparent);
+}
+
+.overview-revenue-icon {
+  color: #6ee7b7;
+  border: 1px solid rgba(110, 231, 183, 0.3);
+  background: rgba(110, 231, 183, 0.12);
+}
+
+.overview-revenue-value {
+  font-size: clamp(1.8rem, 3vw, 2.75rem);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.overview-section-heading h3 {
+  letter-spacing: -0.015em;
+  font-size: 1.0625rem;
+}
+
+.overview-section-number {
+  border-color: #d1fae5;
+  color: #0a7d64;
+  background: linear-gradient(135deg, #ffffff, #f0fdf4);
+  box-shadow: 0 1px 2px rgba(10, 125, 100, 0.05);
+}
+
+.admin-overview .overview-kpi {
+  border-color: var(--overview-line);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(10, 46, 38, 0.04);
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overview-kpi::before {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 2px;
+  border-radius: 0 0 4px 4px;
+  background: linear-gradient(90deg, transparent, #0a7d64, transparent);
+  opacity: 0.35;
+  transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overview-kpi:nth-child(2)::before { background: linear-gradient(90deg, transparent, #06b6d4, transparent); }
+.overview-kpi:nth-child(3)::before { background: linear-gradient(90deg, transparent, #10b981, transparent); }
+.overview-kpi:nth-child(4)::before { background: linear-gradient(90deg, transparent, #f59e0b, transparent); }
+
+.admin-overview button.overview-kpi:hover {
+  border-color: rgba(10, 125, 100, 0.35);
+  box-shadow: 0 10px 26px rgba(10, 46, 38, 0.08);
+  transform: translateY(-2px);
+}
+
+.admin-overview button.overview-kpi:active {
+  transform: translateY(0);
+}
+
+.overview-kpi:hover::before { opacity: 1; }
+.overview-kpi-value { font-size: 2.15rem; }
+.overview-kpi:nth-child(2) .overview-kpi-progress > div { background: linear-gradient(90deg, #06b6d4, #67e8f9); }
+.overview-kpi:nth-child(4) .overview-kpi-progress > div { background: linear-gradient(90deg, #f59e0b, #fde047); }
+
+.admin-overview .overview-queue {
+  border-color: var(--overview-line);
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(10, 46, 38, 0.04);
+}
+
+.overview-queue-header { border-color: #f1f5f3; }
+.overview-queue-summary { background: #f8faf8; }
+.overview-refresh {
+  border-color: var(--overview-line);
+  background: #ffffff;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.overview-refresh:hover {
+  background: #f0fdf4;
+  border-color: rgba(10, 125, 100, 0.3);
+  transform: rotate(45deg);
+}
+
+.admin-overview .overview-task {
+  border-color: var(--overview-line);
+  background: #ffffff;
+  border-radius: 12px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.admin-overview .overview-task:hover {
+  border-color: rgba(10, 125, 100, 0.35);
+  background: #fcfdfc;
+  box-shadow: 0 6px 18px rgba(10, 46, 38, 0.06);
+  transform: translateY(-2px);
+}
+
+.admin-overview .overview-task:active {
+  transform: translateY(0);
+}
+
+/* Preserve the report layout and controls; match its surfaces to the overview. */
+.admin-overview-reports :where(.border-border) { border-color: var(--overview-line); }
+.admin-overview-reports :where(section.bg-white, div.bg-white, button.bg-white) {
+  box-shadow: var(--overview-shadow);
+}
+.admin-overview-reports :where(section.rounded-lg, div.rounded-lg, button.rounded-lg) {
+  border-radius: 14px;
+}
+.admin-overview-reports > div > div:first-child {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #ffffff, #f9fbf9);
+}
+.admin-overview-reports button[title$="(.xlsx)"] {
+  min-height: 36px;
+  border-radius: 8px;
+  background: var(--overview-forest);
+  box-shadow: 0 2px 6px rgba(10, 125, 100, 0.2);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.admin-overview-reports button[title$="(.xlsx)"]:hover {
+  background: #086350;
+  box-shadow: 0 4px 12px rgba(10, 125, 100, 0.3);
+}
+
+@media (min-width: 1280px) {
+  .admin-overview .overview-kpi { padding: 1.5rem; }
+}
+
+@media (max-width: 639px) {
+  .admin-overview .overview-hero { border-radius: 16px; }
+  .overview-landscape { width: 170%; right: -50%; bottom: 0; opacity: 0.12; }
+  .overview-eyebrow { margin-bottom: 0.75rem; }
+  .overview-revenue { border-radius: 14px; }
+  .admin-overview .overview-kpi { border-radius: 14px; }
+  .overview-kpi-value { font-size: 1.85rem; }
+  .admin-overview .overview-queue { border-radius: 16px; }
+  .admin-overview-reports > div > div:first-child { padding: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .admin-overview *, .admin-overview *::before, .admin-overview *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .admin-overview button:hover { transform: none; }
+}
