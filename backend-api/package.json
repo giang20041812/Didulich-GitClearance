@@ -1,0 +1,53 @@
+{
+  "name": "viettrek-backend-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Booking API for Tourism Platform (Node.js / Express / PostgreSQL)",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env.local src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "migrate": "tsx --env-file-if-exists=.env.local src/db/migrateCli.ts",
+    "import:data-chinh-thong": "tsx --env-file-if-exists=.env.local scripts/import-data-chinh-thong.ts",
+    "import:dimcc": "tsx --env-file-if-exists=.env.local scripts/import-dimcc.ts",
+    "import:zip-photos": "tsx --env-file-if-exists=.env.local scripts/import-zip-photos.ts",
+    "prune:unconfirmed": "tsx --env-file-if-exists=.env.local scripts/prune-unconfirmed.ts",
+    "wipe:catalog": "tsx --env-file-if-exists=.env.local scripts/wipe-catalog-data.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "etag": "^1.8.1",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^10.1.7",
+    "pg": "^8.16.3",
+    "web-push": "^3.6.7",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cors": "^2.8.19",
+    "@types/etag": "^1.8.4",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.0.0",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pg": "^8.15.4",
+    "@types/supertest": "^6.0.3",
+    "@types/web-push": "^3.6.4",
+    "supertest": "^7.1.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^5.0.5"
+  }
+}

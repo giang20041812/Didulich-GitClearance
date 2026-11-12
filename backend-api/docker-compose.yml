@@ -1,0 +1,38 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: booking_postgres
+    environment:
+      POSTGRES_DB: viettrek
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d viettrek"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # Chạy cả API trong Docker: docker compose --profile api up --build
+  api:
+    profiles: ["api"]
+    build: .
+    container_name: booking_api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PORT: "10000"
+      DB_URL: postgres://postgres:secret@postgres:5432/viettrek
+      JWT_SECRET: ${JWT_SECRET:-dev-only-jwt-secret-change-me-0123456789abcdef}
+      APP_SEED_INITIAL_PASSWORD: ${APP_SEED_INITIAL_PASSWORD:-}
+    ports:
+      - "10000:10000"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
