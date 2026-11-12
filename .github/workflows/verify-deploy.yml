@@ -1,0 +1,32 @@
+name: Kiểm chứng deploy production
+
+# Luồng tự động: push lên main → Vercel tự build 2 project (đã kết nối Git Integration,
+# rootDirectory backend-api / frontend-pwa) → backend khởi động áp migrations/*.sql cập nhật
+# schema Supabase → workflow này đợi Vercel build xong ĐÚNG commit này (fail ngay nếu Vercel build lỗi)
+# rồi kiểm chứng production sống và đúng dữ liệu (.github/scripts/verify-production.py).
+# Không cần secret riêng: chỉ đọc trạng thái commit bằng GITHUB_TOKEN và gọi API công khai.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+concurrency:
+  group: verify-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  statuses: read
+  deployments: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Đợi build Vercel của commit này + kiểm chứng production
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/verify-production.py

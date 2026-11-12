@@ -1,0 +1,142 @@
+name: CI — kiểm tra trước khi deploy
+
+# Chạy lại đúng những bước Vercel làm khi deploy, nhưng trên GitHub Actions (Linux, phân biệt hoa/thường như Vercel):
+#   - backend:        npm ci + tsc --noEmit + vitest (PostgreSQL thật) + build TypeScript.
+#   - backend-image:  build đúng Dockerfile.vercel, chạy container với PostgreSQL thật: migrations/*.sql áp toàn bộ lên DB trống,
+#                     gọi thử API công khai, rồi khởi động lại để kiểm tra nhánh "schema đã cập nhật" như container nguội trên Vercel.
+#   - frontend:       npm ci + lint + build (tsc -b && vite build) — lỗi TypeScript ở đây = Vercel build fail.
+# Push lên main thì Vercel deploy song song với CI: hãy chạy CI trên nhánh / pull request và chỉ merge khi xanh.
+# Không cần secret nào; database là container tạm của job.
+
+on:
+  push:
+    branches: ['**']
+  pull_request: {}
+  workflow_dispatch: {}
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: Backend — typecheck + test + build (Node.js)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        # Supabase chạy PostgreSQL 15/17; dùng 17 cho gần production.
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: ci
+        ports: ['54329:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    defaults:
+      run:
+        working-directory: backend-api
+    env:
+      # Mỗi file test tự tạo database riêng trên server này (test/helpers.ts).
+      TEST_DB_ADMIN_URL: postgres://postgres:ci@127.0.0.1:54329/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: backend-api/package-lock.json
+      - run: npm ci
+      - name: Kiểm tra kiểu (tsc --noEmit)
+        run: npm run typecheck
+      - name: Test (vitest + supertest trên PostgreSQL thật)
+        run: npm test
+      - name: Build (tsc → dist/)
+        run: npm run build
+
+  backend-image:
+    name: Backend — image Vercel + migrations (PostgreSQL)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: ci
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build image từ Dockerfile.vercel (giống Vercel)
+        working-directory: backend-api
+        run: docker build -f Dockerfile.vercel -t viettrek-api:ci .
+
+      - name: Chạy container — áp migrations lên DB trống
+        run: |
+          docker run -d --name api --network host \
+            -e PORT=8080 \
+            -e APP_PROFILE=supabase \
+            -e DB_URL='jdbc:postgresql://127.0.0.1:5432/postgres?prepareThreshold=0' \
+            -e DB_USERNAME=postgres -e DB_PASSWORD=ci \
+            -e JWT_SECRET=ci-only-jwt-secret-0123456789abcdef0123456789 \
+            -e CRON_SECRET=ci-only-cron-secret \
+            -e CORS_ALLOWED_ORIGINS=http://localhost \
+            viettrek-api:ci
+          bash .github/scripts/wait-healthy.sh http://127.0.0.1:8080/api/public/health 240
+          docker logs api 2>&1 | grep -F "[Migrate] Đã áp dụng" \
+            || { echo "::error::Không có migration nào được áp dụng lên DB trống"; docker logs api 2>&1 | tail -n 80; exit 1; }
+
+      - name: Gọi thử API công khai trên schema vừa tạo
+        run: |
+          set -eu
+          code=$(curl -s -o /tmp/places.json -w '%{http_code}' --max-time 30 \
+            'http://127.0.0.1:8080/api/public/places?kind=HOMESTAY&page=0&size=1')
+          echo "places -> $code"; head -c 300 /tmp/places.json; echo
+          [ "$code" = "200" ] && python3 -c 'import json; d=json.load(open("/tmp/places.json")); assert d.get("totalElements", -1) >= 0'
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 http://127.0.0.1:8080/api/public/home)
+          echo "home -> $code"; [ "$code" = "200" ]
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 -H 'Authorization: Bearer ci-only-cron-secret' \
+            http://127.0.0.1:8080/api/internal/cron/tick)
+          echo "cron tick -> $code"; [ "$code" = "200" ]
+
+      - name: Khởi động lại — container nguội thấy schema đã cập nhật
+        run: |
+          since=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          docker restart api
+          bash .github/scripts/wait-healthy.sh http://127.0.0.1:8080/api/public/health 240
+          # Changeset có precondition onFail:CONTINUE (v2-009-suggested-journeys) cố ý chờ tới khi danh mục có dữ liệu,
+          # nên DB trống của CI không bao giờ "đã cập nhật" hoàn toàn. Điều cần chứng minh: lần khởi động thứ hai
+          # KHÔNG áp dụng lại changeset nào đã chạy.
+          if docker logs --since "$since" api 2>&1 | grep -F "[Migrate] Đã áp dụng"; then
+            echo "::error::Lần khởi động thứ hai vẫn chạy lại migration"; docker logs --since "$since" api 2>&1 | tail -n 80; exit 1
+          fi
+
+      - name: Log container khi lỗi
+        if: failure()
+        run: docker logs api 2>&1 | tail -n 200 || true
+
+  frontend:
+    name: Frontend — npm ci + lint + build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: frontend-pwa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend-pwa/package-lock.json
+      - run: npm ci
+      - name: Lint (oxlint — chỉ lỗi mức error làm fail)
+        run: npm run lint
+      - name: Build (tsc -b && vite build — giống Vercel)
+        run: npm run build

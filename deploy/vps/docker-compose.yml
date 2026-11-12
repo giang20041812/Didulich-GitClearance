@@ -1,0 +1,63 @@
+# Stack Viettrek trên VPS dùng chung (không tên miền, truy cập http://IP:${WEB_PORT}).
+# Mạng + volume riêng, không đụng Traefik/Supabase/hrm-app có sẵn. Chạy: docker compose --env-file .env up -d --build
+name: viettrek
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: viettrek
+      POSTGRES_USER: viettrek
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?đặt DB_PASSWORD trong .env}
+    volumes:
+      - viettrek_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U viettrek -d viettrek"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped   # không publish cổng: chỉ backend trong mạng compose truy cập được
+
+  api:
+    build: ../../backend-api
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - path: api.env   # khóa ngoài (Cloudinary, mail, SePay, Gemini, Supabase Storage...) — không commit
+        required: false
+    environment:
+      PORT: "10000"
+      APP_PROFILE: prod
+      DB_URL: postgres://viettrek:${DB_PASSWORD}@db:5432/viettrek
+      JWT_SECRET: ${JWT_SECRET:?đặt JWT_SECRET (>=32 ký tự) trong .env}
+      APP_SEED_INITIAL_PASSWORD: ${APP_SEED_INITIAL_PASSWORD:-}
+      CORS_ALLOWED_ORIGINS: https://${DOMAIN},http://${PUBLIC_HOST}:${WEB_PORT:-8088}
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ../../frontend-pwa
+      dockerfile: ../deploy/vps/web.Dockerfile
+      additional_contexts:
+        deploy: .
+    depends_on:
+      - api
+    ports:
+      - "${WEB_PORT:-8088}:80"
+    networks: [default, traefik]
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: supabase_default
+      traefik.http.routers.viettrek.rule: Host(`${DOMAIN}`)
+      traefik.http.routers.viettrek.entrypoints: websecure
+      traefik.http.routers.viettrek.tls.certresolver: letsencrypt
+      traefik.http.services.viettrek.loadbalancer.server.port: "80"
+    restart: unless-stopped
+
+networks:
+  traefik:
+    name: supabase_default   # mạng Traefik đang dùng trên VPS
+    external: true
+
+volumes:
+  viettrek_pgdata:
