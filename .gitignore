@@ -1,0 +1,123 @@
+﻿HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Environments ###
+.env
+.env.*
+!.env.example
+!frontend-pwa/.env.production
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+
+# Compilation and runner artifacts
+cp.txt
+cpline.txt
+classpath.txt
+sources.txt
+java_sources.txt
+javac_opts.txt
+cp_arg.txt
+maven.zip
+mvn_temp/
+
+# Tunnel output files
+tunnel*.txt
+
+# Scripts temp
+**/scripts/tmp/
+
+# Backup dữ liệu DB chứa hash mật khẩu/token — không đưa lên git
+ops/backup/*.tar.gz
+ops/backup/*.sql.gz
+
+# Output của vite-plugin-pwa khi chạy "npm run dev" (tự sinh lại mỗi lần) và file tạm của Supabase CLI
+frontend-pwa/dev-dist/
+frontend-pwa/supabase/.temp/
+
+# Script nháp một lần
+scratch_*.py
+
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Frontend dependency caches and generated test reports
+/frontend-pwa/.npm/
+/frontend-pwa/.vite/
+/frontend-pwa/coverage/
+/frontend-pwa/playwright-report/
+/frontend-pwa/test-results/
+
+# ZCode workspace metadata
+.zcode/
+
+### Node ###
+node_modules/
+dist/
+*.tsbuildinfo
+.vercel
+
+
+# LFS pointer khong co noi dung that tren may nay
+*-unsigned.apk
+
+
+# docx la LFS pointer, khong co noi dung that tren may nay
+docs/*.docx
+
+# Cache ảnh đã tải của script nhập DATA CHÍNH THỐNG (ops/import/data-chinh-thong) — chỉ có ý nghĩa trên máy chạy script
+ops/import/data-chinh-thong/.import-state/
+.uploaded-cloudinary-cache.json
+
+# Tài liệu và cấu hình cục bộ — không đưa vào kho mã
+*.docx
+*.xlsx
+*.pdf
+*.md
+docs/
+.claude/

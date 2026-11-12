@@ -1,0 +1,11 @@
+{
+  "name": "viettrek",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n BE,FE -c blue,green \"npm --prefix backend-api run dev\" \"npm --prefix frontend-pwa run dev\"",
+    "install:all": "npm install && npm --prefix backend-api install && npm --prefix frontend-pwa install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
