@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover" />
+    <meta name="theme-color" content="#043D32" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Đi Du Lịch" />
+    <meta name="description" content="Đi Du Lịch — Nền tảng đặt homestay bản địa và khám phá trải nghiệm du lịch di sản, sinh thái Việt Nam." />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- Nút "Đăng nhập bằng Google" tải script GSI từ accounts.google.com lúc runtime: preconnect dựng sẵn
+         DNS+TLS để script không mất thêm một vòng mạng. -->
+    <link rel="preconnect" href="https://accounts.google.com" crossorigin>
+    <title>Đi Du Lịch — Homestay &amp; trải nghiệm bản địa</title>
+    <script>
+      // iPhone mở app từ màn hình chính (status bar black-translucent): trang vẽ dưới thanh trạng thái.
+      // Đặt chiều cao tối thiểu của vùng đó phòng khi iOS trả env(safe-area-inset-top) = 0.
+      // Theo chiều cao màn dọc: <=736 nút Home (20px), 812 X/mini (50px), 844/896/926 tai thỏ (48px),
+      // 852/932 Dynamic Island (59px), 874+ (16 Pro, 17…) Dynamic Island đời mới (62px).
+      (function () {
+        if (!('standalone' in navigator) || !navigator.standalone) return;
+        var h = Math.max(screen.width, screen.height);
+        var min = h <= 736 ? 20 : h <= 812 ? 50 : (h === 844 || h === 896 || h === 926) ? 48 : (h === 852 || h === 932) ? 59 : 62;
+        document.documentElement.style.setProperty('--safe-top-min', min + 'px');
+      })();
+
+      // Android (app TWA / PWA đã cài): Chrome vẫn báo env(safe-area-inset-bottom) = chiều cao thanh điều hướng
+      // dù trang KHÔNG vẽ dưới thanh đó (thanh hệ thống có nền riêng) → thanh dưới bị đệm hai lần, đẩy lên quá cao.
+      // Đo: nếu khoảng màn hình nằm ngoài trang đã chứa đủ thanh điều hướng (+ thanh trạng thái khi trang không vẽ
+      // dưới nó) thì thanh điều hướng không đè lên trang → đặt --safe-bottom-fix = 0. Sai số chỉ nghiêng về phía
+      // giữ nguyên env() như cũ.
+      (function () {
+        if (!/Android/i.test(navigator.userAgent)) return;
+        if (!window.matchMedia('(display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui)').matches) return;
+        var root = document.documentElement;
+        var probe;
+        var measure = function () {
+          if (!document.body) return;
+          if (!probe) {
+            probe = document.createElement('div');
+            probe.setAttribute('aria-hidden', 'true');
+            probe.style.cssText = 'position:fixed;left:0;top:0;width:0;height:0;visibility:hidden;pointer-events:none;' +
+              'padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)';
+            document.body.appendChild(probe);
+          }
+          var cs = getComputedStyle(probe);
+          var insetTop = parseFloat(cs.paddingTop) || 0;
+          var insetBottom = parseFloat(cs.paddingBottom) || 0;
+          // clientHeight của <html> = viewport bố cục, không co lại khi bàn phím mở (khác innerHeight).
+          var outside = screen.height - root.clientHeight;
+          var statusBar = insetTop > 0 ? 0 : 24;
+          if (insetBottom > 0 && outside >= insetBottom + statusBar - 4) root.style.setProperty('--safe-bottom-fix', '0px');
+          else root.style.removeProperty('--safe-bottom-fix');
+        };
+        if (document.body) measure();
+        else document.addEventListener('DOMContentLoaded', measure);
+        window.addEventListener('resize', measure);
+        window.addEventListener('orientationchange', function () { setTimeout(measure, 300); });
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
